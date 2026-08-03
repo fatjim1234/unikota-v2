@@ -36,8 +36,8 @@ const stages: {
     key: "design",
     title: "Design",
     body: "Develop the packaging format, visual direction and production-ready requirements.",
-    image: "/images/unikota/oem-workbench.webp",
-    position: "object-[55%_25%]",
+    image: "/images/unikota/oem-design-studio.webp",
+    position: "object-center",
     icon: "paint",
   },
   {
@@ -54,8 +54,8 @@ const stages: {
     key: "deliver",
     title: "Deliver",
     body: "Coordinate warehousing, delivery and export requirements for the agreed destination.",
-    image: "/images/unikota/home-factory.webp",
-    position: "object-[86%_42%]",
+    image: "/images/unikota/oem-export-loading.webp",
+    position: "object-center",
     icon: "truck",
   },
 ];
