@@ -13,6 +13,7 @@ export type BrandPortfolioItem = {
   subBrand?: {
     name: string;
     logo: string;
+    image?: string;
     description: string;
   };
 };
@@ -36,6 +37,7 @@ export const brandPortfolio: BrandPortfolioItem[] = [
     subBrand: {
       name: "Cili Padi",
       logo: "/images/unikota/brands/cili-padi-logo.png",
+      image: "/images/unikota/brands/cilipadi-product.png",
       description:
         "Cili Padi is the accessible value range introduced during the MCO period, when Malaysian households and small businesses needed a simple RM2 option that remained useful and dependable.",
     },

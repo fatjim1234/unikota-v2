@@ -109,8 +109,15 @@ export default async function BrandFeaturePage({ params }: BrandPageProps) {
       {brand.subBrand ? (
         <section className="bg-white px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="mx-auto grid max-w-page items-center gap-10 border-y border-stone-200 py-12 lg:grid-cols-[35%_65%] lg:gap-16">
-            <div className="relative h-28 w-full">
-              <Image src={brand.subBrand.logo} alt={`${brand.subBrand.name} logo`} fill sizes="360px" className="object-contain object-left" />
+            <div>
+              <div className="relative h-24 w-full">
+                <Image src={brand.subBrand.logo} alt={`${brand.subBrand.name} logo`} fill sizes="360px" className="object-contain object-left" />
+              </div>
+              {brand.subBrand.image ? (
+                <div className="relative mt-4 aspect-square w-full max-w-[16rem]" style={{ backgroundColor: brand.tint }}>
+                  <Image src={brand.subBrand.image} alt={`${brand.subBrand.name} products`} fill sizes="260px" className="object-contain p-4" />
+                </div>
+              ) : null}
             </div>
             <div>
               <p className="font-display text-sm font-semibold uppercase tracking-[0.2em]" style={{ color: brand.accent }}><T k="site.brandPage.underCili" /></p>
