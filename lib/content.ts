@@ -175,6 +175,7 @@ export type AboutContent = {
   lanes?: { title: string; body: string }[];
   conceptToMarket?: string;
   customised?: string[];
+  customisedIntro?: string;
   broaderCapability?: string;
   facts?: FactStat[];
   oemExperience?: string;

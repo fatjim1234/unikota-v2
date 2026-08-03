@@ -74,6 +74,9 @@ export default async function AboutPage() {
       {/* 6 — CUSTOMISED SOLUTIONS */}
       {c.customised && c.customised.length > 0 ? (
         <Section title={<T k="site.about.customised" />}>
+          {c.customisedIntro ? (
+            <p className="mb-6 max-w-2xl text-base leading-relaxed text-stone-600">{c.customisedIntro}</p>
+          ) : null}
           <ul className="grid max-w-4xl gap-x-8 gap-y-2 text-sm text-stone-700 sm:grid-cols-2 lg:grid-cols-3">
             {c.customised.map((item) => (
               <li key={item} className="flex items-start gap-2">
@@ -85,13 +88,29 @@ export default async function AboutPage() {
         </Section>
       ) : null}
 
-      {/* 6.5 — PROGRAMME STANDARDS (not muted: the following "broaderCapability"
-          section is also muted, and two grey sections back-to-back would merge
-          into one indistinct block with no visible boundary between them) */}
+      {/* 6.5 — PROGRAMME STANDARDS. Built with raw markup rather than the
+          shared Section wrapper so it can carry a supporting image — this was
+          the only fully text-only, image-free page on the site. */}
       {c.qualityStatement ? (
-        <Section title={<T k="site.about.quality" fallback="Programme Standards" />}>
-          <p className="max-w-3xl text-base leading-relaxed text-stone-700">{c.qualityStatement}</p>
-        </Section>
+        <section className="bg-white px-4 py-14 sm:px-6 sm:py-18 lg:px-8">
+          <div className="mx-auto grid max-w-page items-center gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16">
+            <div>
+              <h2 className="font-display text-4xl font-bold text-brand-900">
+                <T k="site.about.quality" fallback="Programme Standards" />
+              </h2>
+              <p className="mt-5 max-w-xl text-base leading-relaxed text-stone-700">{c.qualityStatement}</p>
+            </div>
+            <div className="relative aspect-[4/3] overflow-hidden border border-stone-200 shadow-sm">
+              <Image
+                src="/images/unikota/about-quality-review.webp"
+                alt="Specification review meeting in a Kuala Lumpur office"
+                fill
+                sizes="(min-width: 1024px) 45vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </section>
       ) : null}
 
       {/* 7 — TISSUE, HYGIENE & PERSONAL CARE */}

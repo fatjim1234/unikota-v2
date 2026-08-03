@@ -141,7 +141,10 @@ export default async function OemPage() {
       </section>
 
       <section aria-label="Verified company facts" className="bg-brand-700 text-white">
-        <dl className="mx-auto grid max-w-[82rem] grid-cols-2 gap-y-7 px-4 py-10 sm:px-6 md:grid-cols-5 lg:px-8 lg:py-12">
+        <p className="mx-auto max-w-[82rem] px-4 pt-8 text-center text-sm font-semibold uppercase tracking-[0.15em] text-brand-100 sm:px-6 lg:px-8">
+          The same operating scale behind every OEM and export programme
+        </p>
+        <dl className="mx-auto grid max-w-[82rem] grid-cols-2 gap-y-7 px-4 pb-10 pt-6 sm:px-6 md:grid-cols-5 lg:px-8 lg:pb-12">
           {proof.map((item) => (
             <div key={item.label} className="border-white/15 px-4 py-2 text-center md:border-r md:last:border-r-0">
               <MarketingIcon name={item.icon} size={22} className="mx-auto text-brand-200" />
