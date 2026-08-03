@@ -30,6 +30,12 @@ export default async function BrandFeaturePage({ params }: BrandPageProps) {
 
   const related = brandPortfolio.filter((item) => item.slug !== brand.slug).slice(0, 3);
 
+  // Column count must track the product count, otherwise a fixed 4-up grid
+  // leaves empty cells that render as blank boxes (every brand except Unisoft
+  // ships fewer than four products). Static strings so Tailwind can see them.
+  const productColumns =
+    brand.products.length >= 4 ? "lg:grid-cols-4" : brand.products.length === 3 ? "lg:grid-cols-3" : "";
+
   return (
     <>
       <section className="relative overflow-hidden" style={{ backgroundColor: brand.tint }}>
@@ -86,9 +92,9 @@ export default async function BrandFeaturePage({ params }: BrandPageProps) {
         <div className="mx-auto max-w-page">
           <p className="font-display text-sm font-semibold uppercase tracking-[0.2em]" style={{ color: brand.accent }}><T k="site.brandPage.range" /></p>
           <h2 className="mt-3 font-display text-4xl font-bold text-brand-900 sm:text-5xl"><T k="site.brandPage.productsUnder" /> {brand.name}</h2>
-          <div className="mt-10 grid gap-px bg-stone-300 sm:grid-cols-2 lg:grid-cols-4">
+          <div className={`mt-10 grid gap-5 sm:grid-cols-2 ${productColumns}`}>
             {brand.products.map((product, index) => (
-              <article key={product} className="min-h-[210px] bg-white p-7">
+              <article key={product} className="flex min-h-[210px] flex-col border border-stone-200 bg-white p-7">
                 <p className="font-display text-3xl font-bold" style={{ color: brand.accent }}>{String(index + 1).padStart(2, "0")}</p>
                 <h3 className="mt-10 font-display text-2xl font-bold text-brand-900">{product}</h3>
                 <Link href="/contact" className="focus-ring mt-5 inline-flex items-center gap-2 text-sm font-bold" style={{ color: brand.accent }}>

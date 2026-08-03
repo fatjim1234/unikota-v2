@@ -99,6 +99,7 @@ export const brandPortfolio: BrandPortfolioItem[] = [
       "The brand keeps the promise uncomplicated: daily-use baby diapers that help families care with confidence.",
     ],
     logo: "/images/unikota/brands/babylike-logo.png",
+    image: "/images/unikota/brands/babylike-product.png",
     accent: "#4c3d95",
     tint: "#f4f1ff",
     products: ["Baby diapers", "Everyday baby care"],
