@@ -94,7 +94,10 @@ export function PageHero({
   children?: ReactNode;
 }) {
   return (
-    <section className="bg-brand-900 text-white">
+    // brand-700, matching the homepage hero — this used to be brand-900, a full
+    // shade darker, so every page using PageHero (About, Contact, Solutions,
+    // Manufacturing...) read as a visibly different blue from Home and OEM.
+    <section className="bg-brand-700 text-white">
       <div className="mx-auto max-w-page px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
         {eyebrow ? <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-brand-200">{eyebrow}</p> : null}
         <h1 className="max-w-3xl font-display text-5xl font-bold uppercase leading-[0.94] sm:text-7xl">{title}</h1>

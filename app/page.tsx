@@ -30,7 +30,7 @@ const pathways = [
     action: "View company profile",
     actionKey: "site.home.discoverAction",
     image: "/images/unikota/home-factory.webp",
-    position: "object-[58%_30%]",
+    position: "object-top",
     colour: "text-brand-700",
   },
   {
@@ -43,7 +43,7 @@ const pathways = [
     action: "Explore brands & products",
     actionKey: "site.home.brandsAction",
     image: "/images/unikota/products-everyday.webp",
-    position: "object-[50%_25%]",
+    position: "object-top",
     colour: "text-teal-700",
   },
   {
@@ -56,7 +56,7 @@ const pathways = [
     action: "OEM & export",
     actionKey: "site.home.oemAction",
     image: "/images/unikota/oem-workbench.webp",
-    position: "object-[55%_35%]",
+    position: "object-top",
     colour: "text-red-700",
   },
 ];
@@ -97,18 +97,18 @@ export default function HomePage() {
             fill
             priority
             sizes="(min-width: 1024px) 58vw, 100vw"
-            className="object-cover object-center"
+            className="object-cover object-bottom"
           />
         </div>
       </section>
 
       <section aria-label="Verified company facts" className="border-b border-stone-200 bg-white">
-        <dl className="mx-auto grid max-w-[82rem] grid-cols-2 px-4 py-7 sm:px-6 md:grid-cols-5 lg:px-8">
+        <dl className="mx-auto grid max-w-[82rem] grid-cols-2 gap-y-6 px-4 py-10 sm:px-6 md:grid-cols-5 lg:px-8 lg:py-12">
           {proof.map((item) => (
-            <div key={item.label} className="border-stone-200 px-4 py-4 text-center md:border-r md:last:border-r-0">
-              <MarketingIcon name={item.icon} size={27} className="mx-auto text-brand-600" />
-              <dd className="mt-2 font-display text-3xl font-bold text-brand-800">{item.value}</dd>
-              <dt className="mt-1 text-xs uppercase tracking-[0.1em] text-stone-500"><T k={item.labelKey} fallback={item.label} /></dt>
+            <div key={item.label} className="border-stone-200 px-4 py-2 text-center md:border-r md:last:border-r-0">
+              <MarketingIcon name={item.icon} size={24} className="mx-auto text-brand-600" />
+              <dd className="mt-3 font-display text-3xl font-bold text-brand-800">{item.value}</dd>
+              <dt className="mt-1.5 text-xs uppercase tracking-[0.1em] text-stone-500"><T k={item.labelKey} fallback={item.label} /></dt>
             </div>
           ))}
         </dl>

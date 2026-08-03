@@ -97,7 +97,7 @@ export default async function OemPage() {
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center"
+          className="object-cover object-bottom"
         />
         <div className="relative mx-auto flex min-h-[680px] max-w-[82rem] items-start px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="max-w-[37rem] bg-white/90 p-6 shadow-[0_12px_36px_rgba(12,35,72,0.08)] sm:p-9">
@@ -141,12 +141,12 @@ export default async function OemPage() {
       </section>
 
       <section aria-label="Verified company facts" className="bg-brand-700 text-white">
-        <dl className="mx-auto grid max-w-[82rem] grid-cols-2 px-4 py-8 sm:px-6 md:grid-cols-5 lg:px-8">
+        <dl className="mx-auto grid max-w-[82rem] grid-cols-2 gap-y-7 px-4 py-10 sm:px-6 md:grid-cols-5 lg:px-8 lg:py-12">
           {proof.map((item) => (
-            <div key={item.label} className="border-white/20 px-3 py-4 text-center md:border-r md:last:border-r-0">
-              <MarketingIcon name={item.icon} size={26} className="mx-auto text-brand-200" />
-              <dd className="mt-2 font-display text-3xl font-bold">{item.value}</dd>
-              <dt className="mt-1 text-xs uppercase tracking-[0.1em] text-brand-100"><T k={item.labelKey} fallback={item.label} /></dt>
+            <div key={item.label} className="border-white/15 px-4 py-2 text-center md:border-r md:last:border-r-0">
+              <MarketingIcon name={item.icon} size={22} className="mx-auto text-brand-200" />
+              <dd className="mt-3 font-display text-3xl font-bold">{item.value}</dd>
+              <dt className="mt-1.5 text-xs uppercase tracking-[0.1em] text-brand-100"><T k={item.labelKey} fallback={item.label} /></dt>
             </div>
           ))}
         </dl>
