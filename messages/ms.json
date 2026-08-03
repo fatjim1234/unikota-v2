@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "home": "Utama",
+    "about": "Syarikat",
+    "brandsProducts": "Jenama & Produk",
+    "oemExport": "OEM & Eksport",
+    "contact": "Hubungi",
+    "talk": "Hubungi Pasukan Kami",
+    "products": "Produk",
+    "oem": "OEM & Penyesuaian",
+    "export": "Eksport",
+    "shop": "Kedai",
+    "subscriptions": "Langganan",
+    "account": "Akaun",
+    "admin": "Admin",
+    "cart": "Troli",
+    "signIn": "Log masuk",
+    "solutions": "Penyelesaian",
+    "menu": "Menu",
+    "close": "Tutup"
+  },
+  "common": {
+    "explore": "Terokai",
+    "talk": "Hubungi Pasukan Kami",
+    "fromConcept": "Daripada Konsep ke Pasaran",
+    "proof": {
+      "since": "Beroperasi sejak",
+      "capital": "Modal berbayar",
+      "revenue": "Hasil tahunan",
+      "outlets": "Kedai runcit Malaysia",
+      "markets": "Pasar eksport"
+    },
+    "requestQuotation": "Minta Sebut Harga",
+    "chatWhatsApp": "Sembang di WhatsApp",
+    "learnMore": "Ketahui lanjut",
+    "placeholderNotice": "Prototaip — semua data di halaman ini adalah pemegang tempat dan ditanda sebagai input perniagaan yang diperlukan.",
+    "conceptPreview": "PRATONTON KONSEP — BUKAN UNTUK CETAKAN",
+    "retailReadiness": "Sokongan kesediaan runcit dan pengedaran",
+    "estimateDisclaimer": "Anggaran indikatif sahaja. Harga muktamad disahkan oleh pasukan jualan kami dalam sebut harga rasmi."
+  },
+  "footer": {
+    "tagline": "Pembuatan tisu, OEM dan eksport - Malaysia.",
+    "rights": "Semua hak terpelihara."
+  },
+  "site": {
+    "home": {
+      "eyebrow": "Syarikat tisu & kebersihan Malaysia · Sejak 1983",
+      "title": "Kami Lebih Daripada Kertas",
+      "intro": "Produk tisu Malaysia, jenama sendiri dan penyelesaian tersuai sejak 1983.",
+      "exploreProducts": "Terokai Produk",
+      "create": "Cipta Dengan Unikota",
+      "discoverTitle": "Temui Unikota",
+      "discoverBody": "Empat dekad pengalaman tisu dan kebersihan Malaysia—dibina atas bekalan, perkhidmatan dan perkongsian jangka panjang.",
+      "discoverAction": "Lihat profil syarikat",
+      "brandsTitle": "Terokai Jenama & Produk Kami",
+      "brandsBody": "Produk tisu untuk rumah, peruncit, restoran, perhotelan, organisasi dan pasar eksport.",
+      "brandsAction": "Terokai jenama & produk",
+      "oemTitle": "Cipta Dengan Unikota",
+      "oemBody": "Label peribadi, pembungkusan tersuai, bekalan pukal dan program eksport—daripada idea ke kesediaan pasaran.",
+      "oemAction": "OEM & eksport"
+    },
+    "products": {
+      "hero": {
+        "eyebrow": "PORTFOLIO MALAYSIA KAMI",
+        "title": "JENAMA UNTUK KEHIDUPAN MALAYSIA.",
+        "body": "Daripada meja makan hingga penjagaan harian, jenama Unikota dibina mengikut cara rakyat Malaysia hidup, bekerja dan menikmati makanan.",
+        "cta": "Terokai portfolio"
+      },
+      "careTitle": "Penjagaan diri di bawah Unikota Holdings",
+      "productsTitle": "Keluarga produk",
+      "cta": {
+        "title": "Dibina untuk Malaysia. Dipercayai setiap hari.",
+        "body": "Bekerjasama dengan Unikota untuk jenama berkualiti dan bekalan yang boleh dipercayai bagi setiap saluran."
+      }
+    },
+    "brands": {
+      "cili": {
+        "name": "CILI",
+        "tagline": "Dibuat untuk meja makan Malaysia.",
+        "category": "Serviet",
+        "summary": "Dipercayai di kedai mamak, restoran dan premis perkhidmatan makanan di seluruh Malaysia. Kukuh, menyerap dengan baik dan boleh diharap — setiap helai bersedia untuk sajian sebenar yang pantas.",
+        "spec": "100g × 6 packs"
+      },
+      "wasabi": {
+        "name": "WASABI",
+        "tagline": "Nilai kompak, keyakinan penuh.",
+        "category": "Serviet",
+        "summary": "Tersedia dalam format 50g dan 200g, serviet Wasabi ialah pilihan praktikal untuk pengusaha makanan jalanan dan makanan Thai yang memerlukan nilai yang boleh dipercayai.",
+        "spec": "50g & 200g"
+      },
+      "unisoft": {
+        "name": "UNISOFT",
+        "tagline": "Kelembutan untuk U & I.",
+        "category": "Tisu muka",
+        "summary": "Lembut dan dibuat untuk semua. Tisu muka Unisoft membawa kelembutan sejagat dan penjagaan harian yang lembut ke rumah, pejabat dan komuniti untuk semua peringkat umur.",
+        "spec": "150 helai 2-ply / 100% pulpa tulen"
+      },
+      "aimishu": {
+        "name": "AIMISHU",
+        "tagline": "Mudah setiap hari, penuh karakter.",
+        "category": "Tisu gantung",
+        "summary": "Nama ceria yang diinspirasikan daripada \"I miss you\", digabungkan dengan kemudahan tisu gantung yang praktikal. Aimishu membawa keselesaan, penjagaan dan karakter ke setiap ruang harian.",
+        "spec": "1180 4-ply"
+      },
+      "babylike": {
+        "name": "BabyLike",
+        "tagline": "Lampin Bayi",
+        "category": "Penjagaan Bayi",
+        "summary": "Penjagaan lembut untuk kulit sensitif. Keselesaan dan kekeringan untuk bayi yang ceria, siang dan malam."
+      },
+      "sumo": {
+        "name": "SUMO",
+        "tagline": "Lampin Dewasa",
+        "category": "Penjagaan Dewasa",
+        "summary": "Perlindungan yang boleh dipercayai dan maruah untuk hari yang aktif serta malam yang tenang."
+      }
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "hero": {
+    "title": "From Concept to Market",
+    "lead": "Unikota turns tissue and hygiene product ideas into market-ready products—from concept and packaging development through manufacturing, fulfilment, retail support, distribution and export coordination."
+  },
+  "pillars": [
+    {
+      "href": "/products",
+      "title": "Products",
+      "body": "Facial tissue, toilet rolls, kitchen towels and napkins for retail and business supply."
+    },
+    {
+      "href": "/oem",
+      "title": "OEM, Customization & Export",
+      "body": "Private-label manufacturing, custom packaging and container-load export supply."
+    },
+    {
+      "href": "/contact",
+      "title": "Request a Proposal",
+      "body": "Talk to our team about supply, OEM manufacturing or corporate gifting requirements."
+    }
+  ],
+  "trust": {
+    "note": "Unikota supports Malaysian retail and business supply through its own brands — Cili, Wasabi, Unisoft and Aimishu — while also handling OEM, private-label and bulk supply requirements. Detailed manufacturing capability information is available during proposal discussions.",
+    "requiredInputs": []
+  },
+  "ctaBand": {
+    "title": "Ready to talk?",
+    "body": "Request a proposal or contact our team directly."
+  },
+  "brandLine": "We're More Than Paper",
+  "credibility": [
+    {
+      "value": "Since 1983",
+      "label": "Established Malaysian company"
+    },
+    {
+      "value": "RM2.9 million",
+      "label": "Paid-up capital"
+    },
+    {
+      "value": "Exceeding RM20 million",
+      "label": "Annual revenue"
+    },
+    {
+      "value": "Thousands of outlets",
+      "label": "Malaysian retail distribution"
+    },
+    {
+      "value": "9 international markets",
+      "label": "Export experience"
+    }
+  ],
+  "buyers": {
+    "title": "Solutions for Different Requirements",
+    "items": [
+      {
+        "title": "Retailers & Distributors",
+        "body": "Own-brand and private-label tissue supply, replenishment and range support for retail and wholesale channels."
+      },
+      {
+        "title": "OEM & Private-Label Brands",
+        "body": "Product development, packaging design and manufacturing for brands launching or expanding a tissue range."
+      },
+      {
+        "title": "Corporate & Institutional Buyers",
+        "body": "Office, facility and institutional tissue supply, with customised options for organisations."
+      },
+      {
+        "title": "Hospitality & Food Service",
+        "body": "Serviettes and tissue formats suited to restaurants, cafés, hotels and food-service operations."
+      },
+      {
+        "title": "Events, Campaigns & Corporate Gifting",
+        "body": "Customised tissue boxes, packs and branded serviettes for events, campaigns and gifting programmes."
+      },
+      {
+        "title": "Export Buyers",
+        "body": "Container-load supply and export coordination for overseas importers and distributors."
+      }
+    ]
+  },
+  "lanes": [
+    {
+      "title": "Own Brands & Supply",
+      "body": "Unikota manufactures and supplies tissue and paper-hygiene products through its own brands — Cili, Wasabi, Unisoft and Aimishu — alongside wholesale, retail, corporate and export requirements.",
+      "points": []
+    },
+    {
+      "title": "Product Creation & Custom Solutions",
+      "body": "End-to-end support for customer-specific products:",
+      "points": [
+        "Product conceptualisation",
+        "Product specification",
+        "Packaging format selection",
+        "Packaging design",
+        "Artwork finalisation",
+        "Manufacturing and packing",
+        "Just-in-time and order-based production",
+        "Warehousing",
+        "Logistics",
+        "Delivery",
+        "Retail-listing preparation",
+        "Distribution coordination",
+        "Export coordination"
+      ]
+    }
+  ],
+  "process": {
+    "title": "From Concept to Market",
+    "steps": [
+      {
+        "title": "Discover",
+        "body": "Understand the commercial objective, intended audience and target market."
+      },
+      {
+        "title": "Develop",
+        "body": "Define the product format, specification, pack size, quantity and packaging requirements."
+      },
+      {
+        "title": "Design",
+        "body": "Develop and finalise packaging concepts and production artwork."
+      },
+      {
+        "title": "Manufacture",
+        "body": "Produce and pack the agreed product through Unikota's production capabilities and manufacturing network."
+      },
+      {
+        "title": "Deliver",
+        "body": "Coordinate warehousing, logistics and delivery to designated warehouses, outlets or distribution points."
+      },
+      {
+        "title": "Support the Market",
+        "body": "Assist with retail-listing preparation, distribution planning and export coordination where required."
+      }
+    ],
+    "note": "Retail acceptance remains subject to the relevant retailer's approval."
+  },
+  "corporate": {
+    "title": "Corporate, Institutional & Event Solutions",
+    "intro": "Unikota develops customised tissue products and packaging around the customer's brand, audience, product format, quantity and delivery requirements. Projects can range from private-label product launches to corporate gifts, events and limited-edition campaigns.",
+    "items": [
+      "Customised tissue boxes and packs",
+      "Branded serviettes",
+      "Corporate gifting",
+      "Office and institutional tissue solutions",
+      "Hospitality and food-service products",
+      "Event products",
+      "Campaign packaging",
+      "Retailer-exclusive editions",
+      "Commemorative releases",
+      "Limited-edition projects",
+      "Licensed-brand projects where rights are approved",
+      "Delivery to designated locations"
+    ]
+  },
+  "broaderCapability": "Our product capabilities extend beyond tissue into selected personal-care and incontinence categories, supported by experienced manufacturing and supply partners.",
+  "exportExperience": {
+    "body": "Unikota has export experience across Asia, Africa and North America, including Hong Kong, the United States, Nigeria, Singapore, Madagascar, Thailand, Indonesia, Mauritius and India.",
+    "markets": [
+      "Hong Kong",
+      "United States",
+      "Nigeria",
+      "Singapore",
+      "Madagascar",
+      "Thailand",
+      "Indonesia",
+      "Mauritius",
+      "India"
+    ]
+  },
+  "finalCta": {
+    "title": "Have a product, brand or custom project in mind?",
+    "body": "Talk to Unikota about product development, private label, custom packaging, bulk supply, corporate projects or export requirements."
+  },
+  "compactProcess": {
+    "title": "Custom product creation",
+    "steps": [
+      {
+        "title": "Concept",
+        "body": "Objective, audience, product format and target market."
+      },
+      {
+        "title": "Design",
+        "body": "Packaging concepts and finalised production artwork."
+      },
+      {
+        "title": "Manufacture",
+        "body": "Production and packing through Unikota's capabilities and network."
+      },
+      {
+        "title": "Deliver",
+        "body": "Warehousing, logistics and delivery to designated points."
+      }
+    ]
+  }
+}

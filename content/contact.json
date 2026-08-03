@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "title": "Contact / Request a Proposal",
+    "lead": "Tell us about your supply, OEM or gifting requirements - our team will respond with a proposal."
+  },
+  "whatsapp": {
+    "body": "Prefer chat? Reach our team on WhatsApp."
+  },
+  "office": {
+    "body": ""
+  },
+  "form": {
+    "title": "Request a proposal",
+    "consentLabel": "I consent to Unikota processing my submitted information for the purpose of responding to this enquiry.",
+    "successMessage": "Thank you - your enquiry has been received. Our team will get back to you.",
+    "types": [
+      "General",
+      "OEM / private label",
+      "Export",
+      "Retail support"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "OEM, Customization & Export",
+    "lead": "Private-label manufacturing, custom packaging and export supply based on confirmed product and project requirements."
+  },
+  "steps": [
+    {
+      "title": "Discuss your requirements",
+      "body": "We review product type, specification, packaging format, quantity and intended market."
+    },
+    {
+      "title": "Packaging and design direction",
+      "body": "We work with you on the packaging format and design direction required for the project."
+    },
+    {
+      "title": "Receive your proposal",
+      "body": "Our team responds with a formal commercial proposal based on confirmed requirements."
+    },
+    {
+      "title": "Production and delivery coordination",
+      "body": "We coordinate the agreed production and delivery requirements for the project."
+    }
+  ],
+  "capabilities": {
+    "body": "Materials, print options, minimum order quantities and indicative lead times are confirmed for each project. Contact our team for a tailored proposal.",
+    "requiredInputs": []
+  },
+  "promises": {
+    "title": "Our commitments",
+    "body": "We support launch planning and distribution readiness while avoiding claims or timelines that have not been formally confirmed."
+  },
+  "customisable": {
+    "title": "What can be customised",
+    "items": [
+      "Product formats",
+      "Packaging format and artwork",
+      "Pack size and quantity",
+      "Materials and ply",
+      "Printing and branding",
+      "Carton configuration",
+      "Delivery destination",
+      "Retail, corporate, event or export requirements"
+    ]
+  },
+  "projectTypes": {
+    "title": "Project types",
+    "items": [
+      "Private-label product launches",
+      "Retail-exclusive products",
+      "Corporate-branded tissue",
+      "Events and campaign products",
+      "Hospitality and food-service items",
+      "Export programmes"
+    ]
+  },
+  "qualification": "Final specifications, commercial terms and timelines are confirmed in the formal proposal."
+}

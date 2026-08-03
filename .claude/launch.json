@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "unikota-v2-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3001,
+      "autoPort": true,
+      "cwd": "C:\\Users\\jimmy\\Documents\\Chatgpt x Unikota\\Unikota-Malaysian-Website-Source-v2"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "title": "Manufacturing & Quality",
+    "lead": "Manufacturing capability, product specifications and quality-control information are available for commercial evaluation."
+  },
+  "facility": {
+    "overview": "Unikota's manufacturing and converting capabilities support its own-brand, OEM, private-label and bulk supply requirements. Detailed facility, production-line and capacity information can be presented during commercial discussions.",
+    "requiredInputs": []
+  },
+  "lines": [],
+  "linesNote": "",
+  "qc": {
+    "body": "Quality-control requirements and supporting information are reviewed according to the product and project scope.",
+    "certNote": ""
+  }
+}

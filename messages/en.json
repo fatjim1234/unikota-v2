@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Company",
+    "brandsProducts": "Brands & Products",
+    "oemExport": "OEM & Export",
+    "contact": "Contact",
+    "talk": "Talk to Our Team",
+    "products": "Products",
+    "oem": "OEM & Customisation",
+    "export": "Export",
+    "shop": "Shop",
+    "subscriptions": "Subscriptions",
+    "account": "Account",
+    "admin": "Admin",
+    "cart": "Cart",
+    "signIn": "Sign in",
+    "solutions": "Solutions",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "common": {
+    "explore": "Explore",
+    "talk": "Talk to Our Team",
+    "fromConcept": "From Concept to Market",
+    "proof": {
+      "since": "Operating since",
+      "capital": "Paid-up capital",
+      "revenue": "Annual revenue",
+      "outlets": "Malaysian retail outlets",
+      "markets": "Export markets"
+    },
+    "requestQuotation": "Request a Quotation",
+    "chatWhatsApp": "Chat on WhatsApp",
+    "learnMore": "Learn more",
+    "placeholderNotice": "Prototype — all data on this page is placeholder and marked as required business input.",
+    "conceptPreview": "CONCEPT PREVIEW — NOT PRINT-READY",
+    "retailReadiness": "Retail readiness and distribution support",
+    "estimateDisclaimer": "Indicative estimate only. Final pricing is confirmed by our sales team in a formal quotation."
+  },
+  "footer": {
+    "tagline": "Tissue manufacturing, OEM and export - Malaysia.",
+    "rights": "All rights reserved."
+  },
+  "site": {
+    "home": {
+      "eyebrow": "Malaysian tissue & hygiene company · Since 1983",
+      "title": "We're More Than Paper",
+      "intro": "Malaysian tissue products, own brands and custom solutions since 1983.",
+      "exploreProducts": "Explore Products",
+      "create": "Create With Unikota",
+      "discoverTitle": "Discover Unikota",
+      "discoverBody": "Four decades of Malaysian tissue and hygiene experience—built on supply, service and long-term partnerships.",
+      "discoverAction": "View company profile",
+      "brandsTitle": "Explore Our Brands & Products",
+      "brandsBody": "Tissue products for homes, retailers, restaurants, hospitality, organisations and export markets.",
+      "brandsAction": "Explore brands & products",
+      "oemTitle": "Create With Unikota",
+      "oemBody": "Private label, customised packaging, bulk supply and export programmes—from idea to market readiness.",
+      "oemAction": "OEM & export"
+    },
+    "products": {
+      "hero": {
+        "eyebrow": "OUR MALAYSIAN PORTFOLIO",
+        "title": "BRANDS MADE FOR EVERYDAY MALAYSIA.",
+        "body": "From the dining table to daily care, Unikota brands are built around how Malaysians live, work and eat.",
+        "cta": "Explore the portfolio"
+      },
+      "careTitle": "Personal care under Unikota Holdings",
+      "productsTitle": "Product families",
+      "cta": {
+        "title": "BUILT FOR MALAYSIA. TRUSTED EVERY DAY.",
+        "body": "Partner with Unikota for quality brands and reliable supply across every channel."
+      }
+    },
+    "brands": {
+      "cili": {
+        "name": "CILI",
+        "tagline": "Made for Malaysian tables.",
+        "category": "Serviettes",
+        "summary": "Trusted in mamak stalls, restaurants and food service outlets across Malaysia. Strong, absorbent and reliable — every sheet is made to handle real meals, real fast.",
+        "spec": "100g × 6 packs"
+      },
+      "wasabi": {
+        "name": "WASABI",
+        "tagline": "Compact value, full confidence.",
+        "category": "Serviettes",
+        "summary": "Available in 50g and 200g formats, Wasabi serviettes are the go-to choice for street food and Thai-food operators who need value they can count on.",
+        "spec": "50g & 200g"
+      },
+      "unisoft": {
+        "name": "UNISOFT",
+        "tagline": "Softness for U & I.",
+        "category": "Facial tissue",
+        "summary": "Beautifully soft and made for everyone. Unisoft facial tissues bring universal softness and gentle daily care to homes, offices and communities of all ages.",
+        "spec": "150 sheets 2-ply / 100% virgin pulp"
+      },
+      "aimishu": {
+        "name": "AIMISHU",
+        "tagline": "Everyday convenience, with character.",
+        "category": "Hanging tissue",
+        "summary": "A playful I-miss-you-inspired name with practical hanging convenience. Aimishu hanging tissues bring comfort, care and character to every corner of your day.",
+        "spec": "1180 4-ply"
+      },
+      "babylike": {
+        "name": "BabyLike",
+        "tagline": "Baby Diapers",
+        "category": "Baby Care",
+        "summary": "Thoughtful care for delicate skin. Comfort and dryness for happy babies, day and night."
+      },
+      "sumo": {
+        "name": "SUMO",
+        "tagline": "Adult Diapers",
+        "category": "Adult Care",
+        "summary": "Reliable protection and dignity for active days and restful nights."
+      }
+    }
+  }
+}

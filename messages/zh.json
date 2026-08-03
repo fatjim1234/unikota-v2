@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "公司",
+    "brandsProducts": "品牌与产品",
+    "oemExport": "OEM 与出口",
+    "contact": "联系",
+    "talk": "联系我们",
+    "products": "产品",
+    "oem": "OEM 与定制",
+    "export": "出口",
+    "shop": "商店",
+    "subscriptions": "订阅",
+    "account": "账户",
+    "admin": "管理",
+    "cart": "购物车",
+    "signIn": "登录",
+    "solutions": "解决方案",
+    "menu": "菜单",
+    "close": "关闭"
+  },
+  "common": {
+    "explore": "探索",
+    "talk": "联系我们",
+    "fromConcept": "从创意到市场",
+    "proof": {
+      "since": "运营始于",
+      "capital": "注册资本",
+      "revenue": "年收入",
+      "outlets": "马来西亚零售门店",
+      "markets": "出口市场"
+    },
+    "requestQuotation": "索取报价",
+    "chatWhatsApp": "WhatsApp 聊天",
+    "learnMore": "了解更多",
+    "placeholderNotice": "原型 — 本页所有数据均为占位内容，已标记为需要企业提供的资料。",
+    "conceptPreview": "概念预览 — 非印刷文件",
+    "retailReadiness": "零售就绪与分销支持",
+    "estimateDisclaimer": "仅为参考估价。最终价格以销售团队正式报价为准。"
+  },
+  "footer": {
+    "tagline": "纸巾制造、OEM 与出口 - 马来西亚。",
+    "rights": "版权所有。"
+  },
+  "site": {
+    "home": {
+      "eyebrow": "马来西亚纸巾与卫生用品公司 · 创立于 1983 年",
+      "title": "我们的意义不止纸张",
+      "intro": "自 1983 年来提供马来西亚纸巾产品、自有品牌与定制解决方案。",
+      "exploreProducts": "探索产品",
+      "create": "与 Unikota 共创",
+      "discoverTitle": "了解 Unikota",
+      "discoverBody": "四十年马来西亚纸巾与卫生用品经验—基于供应、服务与长期合作伙伴关系。",
+      "discoverAction": "查看公司简介",
+      "brandsTitle": "探索我们的品牌与产品",
+      "brandsBody": "为家庭、零售商、餐厅、酒店、机构及出口市场提供的纸巾产品。",
+      "brandsAction": "探索品牌与产品",
+      "oemTitle": "与 Unikota 共创",
+      "oemBody": "自有品牌、定制包装、批量供应与出口项目 — 从创意到市场就绪。",
+      "oemAction": "OEM 与出口"
+    },
+    "products": {
+      "hero": {
+        "eyebrow": "我们的马来西亚品牌组合",
+        "title": "为马来西亚日常生活而生的品牌。",
+        "body": "从餐桌到日常护理，Unikota 品牌围绕马来西亚人的生活、工作与饮食方式而打造。",
+        "cta": "探索品牌组合"
+      },
+      "careTitle": "Unikota Holdings 个人护理系列",
+      "productsTitle": "产品系列",
+      "cta": {
+        "title": "为马来西亚打造。日日值得信赖。",
+        "body": "与 Unikota 合作，为各销售渠道提供优质品牌与稳定供应。"
+      }
+    },
+    "brands": {
+      "cili": {
+        "name": "CILI",
+        "tagline": "为马来西亚餐桌而生。",
+        "category": "餐巾纸",
+        "summary": "深受全马嘛嘛档、餐厅及餐饮业者信赖。强韧、吸水、可靠 — 每一张都能应付真实而忙碌的用餐场景。",
+        "spec": "100g × 6 packs"
+      },
+      "wasabi": {
+        "name": "WASABI",
+        "tagline": "小巧实惠，品质可靠。",
+        "category": "餐巾纸",
+        "summary": "提供 50g 与 200g 规格，Wasabi 餐巾纸适合需要稳定品质与实惠选择的街头美食及泰式餐饮业者。",
+        "spec": "50g & 200g"
+      },
+      "unisoft": {
+        "name": "UNISOFT",
+        "tagline": "给 U 与 I 的柔软呵护。",
+        "category": "面纸",
+        "summary": "柔软舒适，适合每一个人。Unisoft 面纸把温和的日常护理带进家庭、办公室与各年龄层的生活。",
+        "spec": "150 张 2 层 / 100% 纯浆"
+      },
+      "aimishu": {
+        "name": "AIMISHU",
+        "tagline": "日常便利，自有个性。",
+        "category": "挂式面纸",
+        "summary": "名字灵感来自 \"I miss you\"，结合实用的悬挂式设计。Aimishu 为生活每个角落带来舒适、关怀与趣味。",
+        "spec": "1180 4 层"
+      },
+      "babylike": {
+        "name": "BabyLike",
+        "tagline": "婴儿纸尿裤",
+        "category": "婴儿护理",
+        "summary": "贴心呵护幼嫩肌肤。全天保持舒适干爽，让宝宝开心每一天。"
+      },
+      "sumo": {
+        "name": "SUMO",
+        "tagline": "成人纸尿裤",
+        "category": "成人护理",
+        "summary": "可靠防护与安心尊严，陪伴活跃白天与安稳夜晚。"
+      }
+    }
+  }
+}

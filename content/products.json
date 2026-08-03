@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "title": "Products",
+    "lead": "Tissue and paper-hygiene products for households, retailers, hospitality, corporate organisations and export markets. Full specifications and samples are available on request."
+  },
+  "browseBy": {
+    "product": [
+      "Facial Tissue",
+      "Hanging Tissue",
+      "Toilet Rolls",
+      "Kitchen Towels",
+      "Serviettes & Napkins",
+      "Custom / OEM"
+    ],
+    "brand": [
+      "Cili",
+      "Wasabi",
+      "Unisoft",
+      "Aimishu"
+    ],
+    "market": [
+      "Household",
+      "Retail",
+      "HoReCa",
+      "Corporate & Institutional",
+      "Events & Gifting",
+      "Export"
+    ]
+  },
+  "categories": [
+    {
+      "slug": "facial-tissue",
+      "name": "Facial Tissue",
+      "visual": "box",
+      "description": "Soft facial tissue in box and pack formats for everyday home, office and retail use.",
+      "brands": [
+        "Unisoft"
+      ],
+      "markets": [
+        "Household",
+        "Retail",
+        "Corporate & Institutional"
+      ]
+    },
+    {
+      "slug": "hanging-tissue",
+      "name": "Hanging Tissue",
+      "visual": "sheet",
+      "description": "Space-saving hanging tissue formats for homes, washrooms and commercial spaces.",
+      "brands": [
+        "Aimishu"
+      ],
+      "markets": [
+        "Household",
+        "Retail"
+      ]
+    },
+    {
+      "slug": "toilet-rolls",
+      "name": "Toilet Rolls",
+      "visual": "roll",
+      "description": "Toilet rolls in multi-pack and bulk configurations for households, washrooms and institutions.",
+      "brands": [],
+      "markets": [
+        "Household",
+        "Retail",
+        "HoReCa",
+        "Corporate & Institutional"
+      ]
+    },
+    {
+      "slug": "kitchen-towels",
+      "name": "Kitchen Towels",
+      "visual": "roll",
+      "description": "Absorbent kitchen towels for home kitchens, food service and cleaning routines.",
+      "brands": [],
+      "markets": [
+        "Household",
+        "HoReCa"
+      ]
+    },
+    {
+      "slug": "serviettes-napkins",
+      "name": "Serviettes & Napkins",
+      "visual": "sheet",
+      "description": "Serviettes and napkins for dining tables, restaurants, cafés and catering, including customised branded formats.",
+      "brands": [
+        "Cili",
+        "Wasabi"
+      ],
+      "markets": [
+        "HoReCa",
+        "Retail",
+        "Events & Gifting"
+      ]
+    },
+    {
+      "slug": "custom-oem",
+      "name": "Custom / OEM Products",
+      "visual": "box",
+      "description": "Customer-branded tissue products developed to order — formats, packaging, artwork and quantities built around the project.",
+      "brands": [],
+      "markets": [
+        "OEM & Private Label",
+        "Corporate & Institutional",
+        "Events & Gifting",
+        "Export"
+      ]
+    }
+  ],
+  "note": "Full product portfolio, specifications and samples are available on request."
+}

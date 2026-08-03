@@ -1,0 +1,95 @@
+{
+  "hero": {
+    "title": "Solutions for Every Market",
+    "lead": "Tissue, hygiene and customised product solutions for households, retailers, hospitality, corporate organisations, events, private-label brands and export buyers."
+  },
+  "groups": [
+    {
+      "slug": "household",
+      "title": "Household",
+      "summary": "Unisoft, Aimishu and selected everyday tissue formats.",
+      "body": "Everyday tissue for Malaysian homes — soft, dependable and widely available through retail channels.",
+      "items": [
+        "Unisoft facial tissue",
+        "Aimishu hanging tissue",
+        "Facial tissue",
+        "Hanging tissue",
+        "Toilet rolls",
+        "Kitchen towels"
+      ]
+    },
+    {
+      "slug": "retail",
+      "title": "Retail Chains & Distributors",
+      "summary": "Cili, Wasabi, Unisoft, Aimishu, retail-ready supply and private-label opportunities.",
+      "body": "Retail-ready supply across Unikota's own brands, with wholesale, distribution and range-development support.",
+      "items": [
+        "Cili",
+        "Wasabi",
+        "Unisoft",
+        "Aimishu",
+        "Retail-ready packaging",
+        "Wholesale and distribution supply",
+        "Range development",
+        "Private-label opportunities"
+      ]
+    },
+    {
+      "slug": "horeca",
+      "title": "Restaurants, Cafés & HoReCa",
+      "summary": "Serviettes, napkins, kitchen towels, washroom products and customised branded formats.",
+      "body": "Front-of-house and back-of-house paper products for food service, with customised branded serviettes for venues that want their identity on the table.",
+      "items": [
+        "Cili and Wasabi serviettes",
+        "Napkins",
+        "Kitchen towels",
+        "Toilet rolls",
+        "Washroom formats",
+        "Customised branded serviettes"
+      ]
+    },
+    {
+      "slug": "corporate",
+      "title": "Corporate & Institutional",
+      "summary": "Facial tissue, washroom and pantry products, branded tissue and multi-location delivery.",
+      "body": "Reliable tissue supply for offices, facilities and institutions — including customised corporate tissue and coordinated delivery across locations.",
+      "items": [
+        "Facial tissue boxes",
+        "Washroom products",
+        "Pantry tissue",
+        "Customised corporate tissue",
+        "Branded packs",
+        "Multi-location delivery"
+      ]
+    },
+    {
+      "slug": "events",
+      "title": "Events & Corporate Gifting",
+      "summary": "Custom boxes, packs, serviettes, campaign products and limited editions.",
+      "body": "Customised tissue products designed around campaigns, events and gifting programmes — from concept and packaging design through production and delivery.",
+      "items": [
+        "Customised boxes and packs",
+        "Campaign packaging",
+        "Event products",
+        "Limited editions",
+        "Corporate gifts",
+        "Licensed-brand projects where rights are approved"
+      ]
+    },
+    {
+      "slug": "oem-export",
+      "title": "OEM, Private Label & Export",
+      "summary": "Customer-owned brands, packaging development, manufacturing, packing and export coordination.",
+      "body": "End-to-end support for customer-owned brands — from product development and packaging design through manufacturing, packing and export coordination.",
+      "items": [
+        "Product development",
+        "Packaging design",
+        "Artwork finalisation",
+        "Manufacturing and packing",
+        "Carton planning",
+        "Delivery coordination",
+        "Export support"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "title": "Our Brands",
+    "lead": "Six memorable Malaysian brands built around everyday tissue, baby-care and adult-care needs."
+  },
+  "brands": [
+    {
+      "name": "Cili",
+      "description": "The everyday 100g serviette for Malaysian food, from mamaks and Malay eateries to food courts and caterers."
+    },
+    {
+      "name": "Wasabi",
+      "description": "A lighter 50g serviette pack for Thai food, street-food and casual dining customers seeking practical value."
+    },
+    {
+      "name": "Unisoft",
+      "description": "Softness for U & I—gentle everyday tissue care for people across every age."
+    },
+    {
+      "name": "Aimishu",
+      "description": "A cute, convenient hanging-tissue brand inspired by “I miss you” and made for easy daily use."
+    },
+    {
+      "name": "BabyLike",
+      "description": "Practical, dependable baby diapers for everyday comfort and care."
+    },
+    {
+      "name": "SUMO",
+      "description": "Adult diapers built around strong absorbency, generous sizing and confident comfort."
+    }
+  ]
+}
