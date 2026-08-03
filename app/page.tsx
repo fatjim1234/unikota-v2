@@ -146,17 +146,6 @@ export default function HomePage() {
                     />
                   </div>
                 </div>
-                <div className="relative h-[88px] overflow-hidden border-t border-white/70 sm:h-[104px] lg:h-[112px]">
-                  <Image
-                    src={pathway.image}
-                    alt=""
-                    fill
-                    sizes="(min-width: 1320px) 82rem, 100vw"
-                    className="scale-[1.02] object-cover object-bottom grayscale-[0.2]"
-                  />
-                  <div className="absolute inset-0 bg-brand-900/20 mix-blend-multiply" />
-                  <div className="absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-brand-900/25 to-transparent" />
-                </div>
               </article>
             ))}
           </div>

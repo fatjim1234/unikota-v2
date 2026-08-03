@@ -133,8 +133,11 @@ export default async function BrandFeaturePage({ params }: BrandPageProps) {
           <div className="mt-9 grid gap-px bg-white/20 md:grid-cols-3">
             {related.map((item) => (
               <Link key={item.slug} href={`/products/${item.slug}`} className="focus-ring group bg-brand-900 p-7">
-                <div className="relative h-20 w-full bg-white/95 p-3">
-                  <Image src={item.logo} alt={`${item.name} logo`} fill sizes="260px" className="object-contain p-3" />
+                {/* A compact chip, not a full-width slab: Unisoft's wordmark is near-black
+                    ink, so a light backing stays necessary for legibility on this dark
+                    section — going fully transparent here would make that logo vanish. */}
+                <div className="relative h-14 w-40 max-w-full rounded-md bg-white/95 p-2.5 shadow-sm">
+                  <Image src={item.logo} alt={`${item.name} logo`} fill sizes="160px" className="object-contain p-2" />
                 </div>
                 <h3 className="mt-5 font-display text-2xl font-bold"><T k={`site.brands.${item.slug}.tagline`} fallback={item.tagline} /></h3>
                 <span className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand-200"><T k="site.common.explore" /> {item.name} <MarketingIcon name="arrow" size={17} /></span>

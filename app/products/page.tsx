@@ -131,9 +131,15 @@ export default function ProductsPage() {
         <div className="mx-auto max-w-page">
           {tissueBrands.map((brand, idx) => (
             <article key={brand.slug} className={`grid gap-0 border-b border-stone-200 last:border-b-0 lg:grid-cols-2 ${idx % 2 === 0 ? "" : "lg:[direction:rtl]"}`}>
-              <div className="relative min-h-[320px] overflow-hidden bg-stone-100 lg:min-h-[420px]">
+              <div className="relative min-h-[320px] overflow-hidden lg:min-h-[420px]" style={{ backgroundColor: brand.tint }}>
                 {brand.image ? (
-                  <Image src={brand.image} alt={`${brand.name} products`} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
+                  <Image
+                    src={brand.image}
+                    alt={`${brand.name} products`}
+                    fill
+                    sizes="(min-width: 1024px) 50vw, 100vw"
+                    className="object-contain p-10"
+                  />
                 ) : null}
               </div>
               <div className={`flex flex-col justify-center px-5 py-10 sm:px-8 lg:px-10 lg:py-14 ${idx % 2 === 0 ? "" : "lg:[direction:ltr]"}`}>
@@ -162,7 +168,11 @@ export default function ProductsPage() {
                 style={{ backgroundColor: brand.tint, borderTop: `6px solid ${brand.accent}` }}
               >
                 <div className="relative min-h-24 sm:min-h-full">
-                  <Image src={brand.logo} alt={`${brand.name} logo`} fill sizes="280px" className="object-contain object-left" />
+                  {brand.image ? (
+                    <Image src={brand.image} alt={`${brand.name} products`} fill sizes="280px" className="object-contain p-2" />
+                  ) : (
+                    <Image src={brand.logo} alt={`${brand.name} logo`} fill sizes="280px" className="object-contain object-left" />
+                  )}
                 </div>
                 <div className="flex flex-col pt-6 sm:pl-8 sm:pt-0">
                   <h3 className="font-display text-2xl font-bold leading-tight text-brand-900"><T k={`site.brands.${brand.slug}.name`} fallback={brand.name} /></h3>
