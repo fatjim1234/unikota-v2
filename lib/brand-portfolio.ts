@@ -51,7 +51,9 @@ export const brandPortfolio: BrandPortfolioItem[] = [
       "It fits naturally into Thai restaurants, street-food stalls, night markets and casual dining—more affordable than Cili, without giving up dependable everyday quality.",
     ],
     logo: "/images/unikota/brands/wasabi-logo.png",
-    image: "/images/unikota/brands/wasabi-product.png",
+    // 200gm angled pack, matching the approved mockup's Wasabi band. The flat-on
+    // 50pcs shot lives at wasabi-product.png if a second angle is ever needed.
+    image: "/images/unikota/brands/wasabi-product-200gm.png",
     accent: "#6d9d31",
     tint: "#f4f8e9",
     products: ["50g paper serviettes", "Street-food napkins", "Value food-service tissue"],
