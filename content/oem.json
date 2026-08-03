@@ -53,5 +53,24 @@
       "Export programmes"
     ]
   },
-  "qualification": "Final specifications, commercial terms and timelines are confirmed in the formal proposal."
+  "qualification": "Final specifications, commercial terms and timelines are confirmed in the formal proposal.",
+  "qualityStatement": "Unikota is the programme owner and supply partner for every OEM, private-label and export engagement. Programmes are developed, approved and supplied to the quality, hygiene and operational requirements defined by the client, with requirements confirmed against the buyer's brief or tender before production is scheduled.",
+  "qualityPoints": [
+    {
+      "title": "Specification control",
+      "body": "Every programme is developed and approved against a written specification agreed with the client before production begins."
+    },
+    {
+      "title": "Quality & hygiene requirements",
+      "body": "Production is run to the quality and hygiene requirements defined for the product's end use — food-service, hospitality, washroom or everyday skin contact."
+    },
+    {
+      "title": "Consistency & sampling approval",
+      "body": "Pre-production samples are issued for approval, with consistency checks carried through production and packing."
+    },
+    {
+      "title": "Documentation & tender readiness",
+      "body": "Product documentation is compiled per programme and available to support tender, audit or export requirements."
+    }
+  ]
 }

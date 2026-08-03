@@ -85,6 +85,15 @@ export default async function AboutPage() {
         </Section>
       ) : null}
 
+      {/* 6.5 — PROGRAMME STANDARDS (not muted: the following "broaderCapability"
+          section is also muted, and two grey sections back-to-back would merge
+          into one indistinct block with no visible boundary between them) */}
+      {c.qualityStatement ? (
+        <Section title={<T k="site.about.quality" fallback="Programme Standards" />}>
+          <p className="max-w-3xl text-base leading-relaxed text-stone-700">{c.qualityStatement}</p>
+        </Section>
+      ) : null}
+
       {/* 7 — TISSUE, HYGIENE & PERSONAL CARE */}
       {c.broaderCapability ? (
         <Section title={<T k="site.about.broader" />} muted>

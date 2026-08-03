@@ -80,6 +80,8 @@ export const siteCopy = {
       exportBody: "Unikota has export experience across Asia, Africa and North America. Product, carton, quantity and delivery requirements are confirmed for each programme.",
       exportAction: "Discuss an export requirement",
       exportNote: "Final specifications, commercial terms, documentation and timelines are confirmed in the formal proposal.",
+      qualityEyebrow: "Standards",
+      qualityTitle: "Quality & Programme Standards",
     },
     about: {
       heroTitle: "Company Profile",
@@ -93,9 +95,10 @@ export const siteCopy = {
       broader: "Tissue, hygiene & personal care",
       facts: "Facts & reach",
       brands: "Own brands",
-      brandsIntro: "Six memorable Malaysian brands across tissue, baby care and adult care—each with a clear role in everyday life.",
+      brandsIntro: "Seven memorable Malaysian brands across tissue, baby care and adult care—each with a clear role in everyday life.",
       experience: "OEM & supply experience",
       cta: "Talk to Unikota about your requirements",
+      quality: "Programme Standards",
     },
     contact: {
       heroTitle: "Contact / Request a Proposal",
@@ -264,6 +267,8 @@ export const siteCopy = {
       exportBody: "Unikota berpengalaman mengeksport ke Asia, Afrika dan Amerika Utara. Keperluan produk, karton, kuantiti dan penghantaran disahkan bagi setiap program.",
       exportAction: "Bincangkan keperluan eksport",
       exportNote: "Spesifikasi akhir, terma komersial, dokumentasi dan garis masa disahkan dalam cadangan rasmi.",
+      qualityEyebrow: "Piawaian",
+      qualityTitle: "Kualiti & Piawaian Program",
     },
     about: {
       heroTitle: "Profil Syarikat",
@@ -277,9 +282,10 @@ export const siteCopy = {
       broader: "Tisu, kebersihan & penjagaan diri",
       facts: "Fakta & capaian",
       brands: "Jenama sendiri",
-      brandsIntro: "Enam jenama Malaysia merangkumi tisu, penjagaan bayi dan penjagaan dewasa—setiap satu dengan peranan jelas dalam kehidupan harian.",
+      brandsIntro: "Tujuh jenama Malaysia merangkumi tisu, penjagaan bayi dan penjagaan dewasa—setiap satu dengan peranan jelas dalam kehidupan harian.",
       experience: "Pengalaman OEM & bekalan",
       cta: "Bincang keperluan anda bersama Unikota",
+      quality: "Piawaian Program",
     },
     contact: {
       heroTitle: "Hubungi / Minta Cadangan",
@@ -448,6 +454,8 @@ export const siteCopy = {
       exportBody: "Unikota 拥有覆盖亚洲、非洲及北美洲的出口经验。每个项目均确认产品、纸箱、数量和交付要求。",
       exportAction: "讨论出口需求",
       exportNote: "最终规格、商业条款、文件及时间表以正式方案为准。",
+      qualityEyebrow: "标准",
+      qualityTitle: "质量与项目标准",
     },
     about: {
       heroTitle: "公司简介",
@@ -461,9 +469,10 @@ export const siteCopy = {
       broader: "纸巾、卫生与个人护理",
       facts: "数据与覆盖",
       brands: "自有品牌",
-      brandsIntro: "六个马来西亚品牌覆盖纸巾、婴儿护理及成人护理，各自在日常生活中承担清晰角色。",
+      brandsIntro: "七个马来西亚品牌覆盖纸巾、婴儿护理及成人护理，各自在日常生活中承担清晰角色。",
       experience: "OEM 与供应经验",
       cta: "与 Unikota 讨论您的需求",
+      quality: "项目标准",
     },
     contact: {
       heroTitle: "联系 / 索取方案",

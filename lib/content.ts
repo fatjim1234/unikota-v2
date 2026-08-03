@@ -178,6 +178,7 @@ export type AboutContent = {
   broaderCapability?: string;
   facts?: FactStat[];
   oemExperience?: string;
+  qualityStatement?: string;
 };
 
 export type ManufacturingContent = {
@@ -202,6 +203,8 @@ export type OemContent = {
   customisable?: { title: string; items: string[] };
   projectTypes?: { title: string; items: string[] };
   qualification?: string;
+  qualityStatement?: string;
+  qualityPoints?: { title: string; body: string }[];
 };
 
 export type ProductCategory = {

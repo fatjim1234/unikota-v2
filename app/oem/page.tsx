@@ -64,7 +64,7 @@ const proof: { value: string; label: string; labelKey: string; icon: MarketingIc
   { value: "1983", label: "Operating since", labelKey: "site.common.proof.since", icon: "calendar" },
   { value: "RM2.9M", label: "Paid-up capital", labelKey: "site.common.proof.capital", icon: "chart" },
   { value: "RM20M+", label: "Annual revenue", labelKey: "site.common.proof.revenue", icon: "package" },
-  { value: "Thousands", label: "Malaysian retail outlets", labelKey: "site.common.proof.outlets", icon: "storefront" },
+  { value: "3,300+", label: "Malaysian retail outlets", labelKey: "site.common.proof.outlets", icon: "storefront" },
   { value: "9", label: "Export markets", labelKey: "site.common.proof.markets", icon: "globe" },
 ];
 
@@ -170,6 +170,28 @@ export default async function OemPage() {
           </ul>
         </div>
       </section>
+
+      {content.qualityStatement && content.qualityPoints?.length ? (
+        <section className="bg-white px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+          <div className="mx-auto max-w-[82rem]">
+            <p className="font-display text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">
+              <T k="site.oem.qualityEyebrow" fallback="Standards" />
+            </p>
+            <h2 className="mt-3 max-w-3xl font-display text-4xl font-bold text-brand-900 sm:text-5xl">
+              <T k="site.oem.qualityTitle" fallback="Quality & Programme Standards" />
+            </h2>
+            <p className="mt-5 max-w-2xl text-base leading-7 text-stone-600">{content.qualityStatement}</p>
+            <div className="mt-10 grid gap-6 border-t border-stone-300 pt-10 sm:grid-cols-2 lg:grid-cols-4">
+              {content.qualityPoints.map((point) => (
+                <div key={point.title}>
+                  <h3 className="font-display text-lg font-bold text-brand-900">{point.title}</h3>
+                  <p className="mt-2 text-sm leading-6 text-stone-600">{point.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       <section id="export" className="bg-brand-900 px-4 py-16 text-white sm:px-6 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-[82rem]">
