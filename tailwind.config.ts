@@ -25,9 +25,13 @@ const config: Config = {
         ink: "#101d33",
       },
       maxWidth: { page: "82rem" },
+      // Family names containing spaces or digits MUST stay quoted here.
+      // Unquoted, Tailwind emits `font-family: Source Sans 3, ...` and the
+      // bare `3` is an invalid CSS identifier, so the browser discards the
+      // whole declaration and body text silently falls back to Times New Roman.
       fontFamily: {
-        sans: ["Source Sans 3", "Noto Sans", "Arial", "sans-serif"],
-        display: ["Barlow Condensed", "Arial Narrow", "sans-serif"],
+        sans: ['"Source Sans 3"', '"Noto Sans"', "system-ui", "Arial", "sans-serif"],
+        display: ['"Barlow Condensed"', '"Arial Narrow"', "system-ui", "sans-serif"],
       },
     },
   },
