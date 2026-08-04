@@ -1,9 +1,15 @@
 import type { Config } from "tailwindcss";
 
 /**
- * Batch 1 design tokens — corporate blue derived from the Unikota "U" mark,
- * white/neutral surfaces, dark navy typography. Scale keys are unchanged so
- * existing components restyle automatically.
+ * Corporate blue, official scale — anchored on the exact navy from the
+ * approved Unikota Company Profile PDF (#00297A). Every other step is
+ * mathematically re-derived from the previous scale so each step keeps
+ * the same structural role (badges, buttons, ink, CTA bands) it always
+ * had; only the hue/saturation source changed, not the design.
+ * Previous anchor (brand-700) was #153f78 — noticeably lighter and less
+ * saturated than the approved document. Do not hand-edit individual
+ * steps; regenerate the whole scale from the new anchor if it ever
+ * needs to change again, so the steps stay internally consistent.
  */
 const config: Config = {
   content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./lib/**/*.{ts,tsx}"],
@@ -11,15 +17,15 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          50: "#f2f6fc",
-          100: "#dde9f7",
-          200: "#b9d0ee",
-          300: "#8db1e0",
-          500: "#2360b0",
-          600: "#1b4f95",
-          700: "#153f78",
-          800: "#10315e",
-          900: "#0b2344",
+          50: "#dee8fd",
+          100: "#c6d8fb",
+          200: "#9cbbf8",
+          300: "#6a97f0",
+          500: "#0542bb",
+          600: "#01359c",
+          700: "#00297A",
+          800: "#001f5b",
+          900: "#00143c",
         },
         paper: "#f7f9fc",
         ink: "#101d33",

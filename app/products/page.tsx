@@ -58,7 +58,7 @@ const productFamilies: {
     description: "Multi-pack and bulk options for households, washrooms and institutions.",
     icon: "package",
     href: "/products/unisoft",
-    accent: "#174a91",
+    accent: "#00297A",
     tint: "#eef5ff",
   },
   {
@@ -67,7 +67,7 @@ const productFamilies: {
     description: "Absorbent everyday rolls for kitchens, food service and cleaning routines.",
     icon: "storefront",
     href: "/products/unisoft",
-    accent: "#174a91",
+    accent: "#00297A",
     tint: "#f4f8fb",
   },
   {
@@ -94,7 +94,7 @@ const productFamilies: {
     description: "Product format, artwork, packaging and supply developed around your project.",
     image: "/images/unikota/product-oem.webp",
     href: "/oem",
-    accent: "#174a91",
+    accent: "#00297A",
     tint: "#eef5ff",
   },
 ];
