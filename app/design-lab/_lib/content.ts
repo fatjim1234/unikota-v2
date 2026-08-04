@@ -48,7 +48,6 @@ export type ProofPoint = {
 export const PROOF_POINTS: ProofPoint[] = [
   { value: "1983", label: "Operating since" },
   { value: "RM2.9M", label: "Paid-up capital" },
-  { value: "RM20M+", label: "Annual revenue" },
   { value: "1,000s", label: "Malaysian retail outlets" },
   { value: "9", label: "Export markets" },
 ];

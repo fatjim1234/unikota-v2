@@ -63,7 +63,6 @@ const stages: {
 const proof: { value: string; label: string; labelKey: string; icon: MarketingIconName }[] = [
   { value: "1983", label: "Operating since", labelKey: "site.common.proof.since", icon: "calendar" },
   { value: "RM2.9M", label: "Paid-up capital", labelKey: "site.common.proof.capital", icon: "chart" },
-  { value: "RM20M+", label: "Annual revenue", labelKey: "site.common.proof.revenue", icon: "package" },
   { value: "3,300+", label: "Malaysian retail outlets", labelKey: "site.common.proof.outlets", icon: "storefront" },
   { value: "9", label: "Export markets", labelKey: "site.common.proof.markets", icon: "globe" },
 ];
@@ -144,7 +143,7 @@ export default async function OemPage() {
         <p className="mx-auto max-w-[82rem] px-4 pt-8 text-center text-sm font-semibold uppercase tracking-[0.15em] text-brand-100 sm:px-6 lg:px-8">
           The same operating scale behind every OEM and export programme
         </p>
-        <dl className="mx-auto grid max-w-[82rem] grid-cols-2 gap-y-7 px-4 pb-10 pt-6 sm:px-6 md:grid-cols-5 lg:px-8 lg:pb-12">
+        <dl className="mx-auto grid max-w-[82rem] grid-cols-2 gap-y-7 px-4 pb-10 pt-6 sm:px-6 md:grid-cols-4 lg:px-8 lg:pb-12">
           {proof.map((item) => (
             <div key={item.label} className="border-white/15 px-4 py-2 text-center md:border-r md:last:border-r-0">
               <MarketingIcon name={item.icon} size={22} className="mx-auto text-brand-200" />

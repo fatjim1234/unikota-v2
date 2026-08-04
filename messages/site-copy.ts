@@ -9,7 +9,6 @@ export const siteCopy = {
       proof: {
         since: "Operating since",
         capital: "Paid-up capital",
-        revenue: "Annual revenue",
         outlets: "Malaysian retail outlets",
         markets: "Export markets",
       },
@@ -196,7 +195,6 @@ export const siteCopy = {
       proof: {
         since: "Beroperasi sejak",
         capital: "Modal berbayar",
-        revenue: "Hasil tahunan",
         outlets: "Cawangan runcit Malaysia",
         markets: "Pasaran eksport",
       },
@@ -383,7 +381,6 @@ export const siteCopy = {
       proof: {
         since: "成立于",
         capital: "实缴资本",
-        revenue: "年营业额",
         outlets: "马来西亚零售网点",
         markets: "出口市场",
       },

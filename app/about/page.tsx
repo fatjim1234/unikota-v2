@@ -123,7 +123,7 @@ export default async function AboutPage() {
       {/* 8 — FACTS & REACH */}
       {c.facts && c.facts.length > 0 ? (
         <Section title={<T k="site.about.facts" />}>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {c.facts.map((f) => (
               <Stat key={f.label} value={f.value} label={f.label} />
             ))}
