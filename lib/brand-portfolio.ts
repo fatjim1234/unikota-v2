@@ -9,7 +9,7 @@ export type BrandPortfolioItem = {
   image?: string;
   accent: string;
   tint: string;
-  products: string[];
+  products: { name: string; image: string }[];
   subBrand?: {
     name: string;
     logo: string;
@@ -33,7 +33,16 @@ export const brandPortfolio: BrandPortfolioItem[] = [
     image: "/images/unikota/brands/cili-product.png",
     accent: "#e3292f",
     tint: "#fff3f2",
-    products: ["100g paper serviettes", "Cocktail napkins", "Food-service tissue"],
+    products: [
+      { name: "100g paper serviettes, case of 6", image: "/images/unikota/brands/cili-product.png" },
+      { name: "Paper serviette, single pack", image: "/images/unikota/brands/cili-serviette-single.png" },
+      { name: "Luncheon napkin", image: "/images/unikota/brands/cili-luncheon.png" },
+      { name: "Pull-up napkin tissue, 200 sheets", image: "/images/unikota/brands/cili-pullup.png" },
+      { name: "Hanging kitchen towel", image: "/images/unikota/brands/cili-hangingkitchen.png" },
+      { name: "Kitchen towel, 1 roll", image: "/images/unikota/brands/cili-kitchentowel-1r.png" },
+      { name: "Jumbo roll, 8 rolls x 200m", image: "/images/unikota/brands/cili-jumboroll.png" },
+      { name: "Facial tissue, 180 sheets", image: "/images/unikota/brands/cili-facialtissue.png" },
+    ],
     subBrand: {
       name: "Cili Padi",
       logo: "/images/unikota/brands/cili-padi-logo.png",
@@ -58,7 +67,11 @@ export const brandPortfolio: BrandPortfolioItem[] = [
     image: "/images/unikota/brands/wasabi-product-200gm.png",
     accent: "#6d9d31",
     tint: "#f4f8e9",
-    products: ["50g paper serviettes", "Street-food napkins", "Value food-service tissue"],
+    products: [
+      { name: "50g paper serviette", image: "/images/unikota/brands/wasabi-product.png" },
+      { name: "200gm paper serviette", image: "/images/unikota/brands/wasabi-product-200gm.png" },
+      { name: "50gm serviette, 12-pack value case", image: "/images/unikota/brands/wasabi-12pack.png" },
+    ],
   },
   {
     slug: "unisoft",
@@ -74,7 +87,11 @@ export const brandPortfolio: BrandPortfolioItem[] = [
     image: "/images/unikota/brands/unisoft-product.png",
     accent: "#298dc8",
     tint: "#edf8fd",
-    products: ["Box facial tissue", "Soft-pack facial tissue", "Toilet rolls", "Kitchen towels"],
+    products: [
+      { name: "3-ply marble toilet roll, 10-roll pack", image: "/images/unikota/brands/unisoft-product.png" },
+      { name: "3-ply toilet roll, single", image: "/images/unikota/brands/unisoft-toiletroll-single.png" },
+      { name: "Facial tissue box, 2-ply 70s x 2", image: "/images/unikota/brands/unisoft-facialbox.png" },
+    ],
   },
   {
     slug: "aimishu",
@@ -90,7 +107,10 @@ export const brandPortfolio: BrandPortfolioItem[] = [
     image: "/images/unikota/brands/aimishu-product.png",
     accent: "#168f88",
     tint: "#edf9f7",
-    products: ["Hanging facial tissue", "Space-saving tissue packs", "Everyday household tissue"],
+    products: [
+      { name: "Hanging tissue, 1180 4-ply", image: "/images/unikota/brands/aimishu-product.png" },
+      { name: "Hanging tissue, 1048 4-ply", image: "/images/unikota/brands/aimishu-1048.png" },
+    ],
   },
   {
     slug: "babylike",
@@ -106,7 +126,10 @@ export const brandPortfolio: BrandPortfolioItem[] = [
     image: "/images/unikota/brands/babylike-product.png",
     accent: "#4c3d95",
     tint: "#f4f1ff",
-    products: ["Baby diapers", "Everyday baby care"],
+    products: [
+      { name: "Super Pants, M/L/XL/XXL range", image: "/images/unikota/brands/babylike-product.png" },
+      { name: "Tape diaper, size M", image: "/images/unikota/brands/babylike-tape-m.png" },
+    ],
   },
   {
     slug: "sumo",
@@ -122,7 +145,10 @@ export const brandPortfolio: BrandPortfolioItem[] = [
     image: "/images/unikota/brands/sumo-product.png",
     accent: "#174a91",
     tint: "#eef5ff",
-    products: ["Adult diapers", "High-absorbency protection", "Larger-size care products"],
+    products: [
+      { name: "Adult diapers, size L & M", image: "/images/unikota/brands/sumo-product.png" },
+      { name: "Adult diaper, size L", image: "/images/unikota/brands/sumo-l.png" },
+    ],
   },
 ];
 

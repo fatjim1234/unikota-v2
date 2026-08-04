@@ -92,12 +92,12 @@ export default async function OemPage() {
     <>
       <section className="relative min-h-[680px] overflow-hidden bg-[#f8f6f1]">
         <Image
-          src="/images/unikota/oem-workbench.webp"
-          alt="Packaging development workspace with tissue samples, pack structures and embossed tissue architecture"
+          src="/images/unikota/oem-hero-production.webp"
+          alt="Tissue converting production floor with large paper rolls on active machinery"
           fill
           priority
           sizes="100vw"
-          className="object-cover object-bottom"
+          className="object-cover object-center"
         />
         <div className="relative mx-auto flex min-h-[680px] max-w-[82rem] items-start px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="max-w-[37rem] bg-white/90 p-6 shadow-[0_12px_36px_rgba(12,35,72,0.08)] sm:p-9">
@@ -185,13 +185,22 @@ export default async function OemPage() {
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-7 text-stone-600">{content.qualityStatement}</p>
             <div className="mt-10 grid gap-6 border-t border-stone-300 pt-10 sm:grid-cols-2 lg:grid-cols-4">
-              {content.qualityPoints.map((point) => (
-                <div key={point.title}>
-                  <h3 className="font-display text-lg font-bold text-brand-900">{point.title}</h3>
-                  <p className="mt-2 text-sm leading-6 text-stone-600">{point.body}</p>
-                </div>
-              ))}
+              {content.qualityPoints.map((point, index) => {
+                // Icons are a fixed visual reinforcement in a fixed order — not a
+                // certification badge. No ISO/FSC marks or accreditation-body logos.
+                const qualityIcons: MarketingIconName[] = ["ruler", "shield", "seal", "clipboard"];
+                return (
+                  <div key={point.title}>
+                    <MarketingIcon name={qualityIcons[index] ?? "package"} size={28} className="text-brand-500" />
+                    <h3 className="mt-3 font-display text-lg font-bold text-brand-900">{point.title}</h3>
+                    <p className="mt-2 text-sm leading-6 text-stone-600">{point.body}</p>
+                  </div>
+                );
+              })}
             </div>
+            <Button href="/contact" className="mt-10 !rounded-none">
+              <T k="site.oem.proposal" />
+            </Button>
           </div>
         </section>
       ) : null}

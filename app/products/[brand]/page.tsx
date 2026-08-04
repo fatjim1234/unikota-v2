@@ -94,12 +94,17 @@ export default async function BrandFeaturePage({ params }: BrandPageProps) {
           <h2 className="mt-3 font-display text-4xl font-bold text-brand-900 sm:text-5xl"><T k="site.brandPage.productsUnder" /> {brand.name}</h2>
           <div className={`mt-10 grid gap-5 sm:grid-cols-2 ${productColumns}`}>
             {brand.products.map((product, index) => (
-              <article key={product} className="flex min-h-[210px] flex-col border border-stone-200 bg-white p-7">
-                <p className="font-display text-3xl font-bold" style={{ color: brand.accent }}>{String(index + 1).padStart(2, "0")}</p>
-                <h3 className="mt-10 font-display text-2xl font-bold text-brand-900">{product}</h3>
-                <Link href="/contact" className="focus-ring mt-5 inline-flex items-center gap-2 text-sm font-bold" style={{ color: brand.accent }}>
-                  <T k="site.common.enquire" /> <MarketingIcon name="arrow" size={17} />
-                </Link>
+              <article key={product.name} className="flex min-h-[320px] flex-col border border-stone-200 bg-white">
+                <div className="relative h-44 w-full bg-stone-50">
+                  <Image src={product.image} alt={`${brand.name} — ${product.name}`} fill sizes="320px" className="object-contain p-4" />
+                </div>
+                <div className="flex flex-1 flex-col p-6">
+                  <p className="font-display text-sm font-bold" style={{ color: brand.accent }}>{String(index + 1).padStart(2, "0")}</p>
+                  <h3 className="mt-2 font-display text-xl font-bold text-brand-900">{product.name}</h3>
+                  <Link href="/contact" className="focus-ring mt-auto pt-5 inline-flex items-center gap-2 text-sm font-bold" style={{ color: brand.accent }}>
+                    <T k="site.common.enquire" /> <MarketingIcon name="arrow" size={17} />
+                  </Link>
+                </div>
               </article>
             ))}
           </div>
@@ -140,11 +145,11 @@ export default async function BrandFeaturePage({ params }: BrandPageProps) {
           <div className="mt-9 grid gap-px bg-white/20 md:grid-cols-3">
             {related.map((item) => (
               <Link key={item.slug} href={`/products/${item.slug}`} className="focus-ring group bg-brand-900 p-7">
-                {/* A compact chip, not a full-width slab: Unisoft's wordmark is near-black
-                    ink, so a light backing stays necessary for legibility on this dark
-                    section — going fully transparent here would make that logo vanish. */}
-                <div className="relative h-14 w-40 max-w-full rounded-md bg-white/95 p-2.5 shadow-sm">
-                  <Image src={item.logo} alt={`${item.name} logo`} fill sizes="160px" className="object-contain p-2" />
+                {/* Sized for confident presence, not a shy chip. Still keeps a light
+                    backing plate: Unisoft's wordmark is near-black ink and would be
+                    close to invisible directly on this navy section without one. */}
+                <div className="relative h-24 w-full max-w-[280px] rounded-md bg-white p-4 shadow-md">
+                  <Image src={item.logo} alt={`${item.name} logo`} fill sizes="280px" className="object-contain p-2" />
                 </div>
                 <h3 className="mt-5 font-display text-2xl font-bold"><T k={`site.brands.${item.slug}.tagline`} fallback={item.tagline} /></h3>
                 <span className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand-200"><T k="site.common.explore" /> {item.name} <MarketingIcon name="arrow" size={17} /></span>
