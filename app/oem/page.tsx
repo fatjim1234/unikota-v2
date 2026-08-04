@@ -67,16 +67,16 @@ const proof: { value: string; label: string; labelKey: string; icon: MarketingIc
   { value: "9", label: "Export markets", labelKey: "site.common.proof.markets", icon: "globe" },
 ];
 
-const markets = [
-  "Hong Kong",
-  "United States",
-  "Nigeria",
-  "Singapore",
-  "Madagascar",
-  "Thailand",
-  "Indonesia",
-  "Mauritius",
-  "India",
+const markets: { name: string; key: string }[] = [
+  { name: "Hong Kong", key: "site.oem.markets.hongkong" },
+  { name: "United States", key: "site.oem.markets.unitedstates" },
+  { name: "Nigeria", key: "site.oem.markets.nigeria" },
+  { name: "Singapore", key: "site.oem.markets.singapore" },
+  { name: "Madagascar", key: "site.oem.markets.madagascar" },
+  { name: "Thailand", key: "site.oem.markets.thailand" },
+  { name: "Indonesia", key: "site.oem.markets.indonesia" },
+  { name: "Mauritius", key: "site.oem.markets.mauritius" },
+  { name: "India", key: "site.oem.markets.india" },
 ];
 
 export default async function OemPage() {
@@ -188,10 +188,18 @@ export default async function OemPage() {
                 // Icons are a fixed visual reinforcement in a fixed order — not a
                 // certification badge. No ISO/FSC marks or accreditation-body logos.
                 const qualityIcons: MarketingIconName[] = ["ruler", "shield", "seal", "clipboard"];
+                // Titles are short structural labels (translated); bodies remain
+                // English-only prose per the site's content-paragraph pattern.
+                const titleKeys = [
+                  "site.oem.qualityPoints.specification",
+                  "site.oem.qualityPoints.hygiene",
+                  "site.oem.qualityPoints.consistency",
+                  "site.oem.qualityPoints.documentation",
+                ];
                 return (
                   <div key={point.title}>
                     <MarketingIcon name={qualityIcons[index] ?? "package"} size={28} className="text-brand-500" />
-                    <h3 className="mt-3 font-display text-lg font-bold text-brand-900">{point.title}</h3>
+                    <h3 className="mt-3 font-display text-lg font-bold text-brand-900"><T k={titleKeys[index] ?? ""} fallback={point.title} /></h3>
                     <p className="mt-2 text-sm leading-6 text-stone-600">{point.body}</p>
                   </div>
                 );
@@ -223,13 +231,13 @@ export default async function OemPage() {
           <ul className="mt-10 grid border-t border-white/20 sm:grid-cols-2 lg:grid-cols-3">
             {markets.map((market, index) => (
               <li
-                key={market}
+                key={market.name}
                 className={`flex items-center gap-4 border-b border-white/20 py-4 sm:px-4 sm:odd:border-r lg:border-r ${
                   (index + 1) % 3 === 0 ? "lg:border-r-0" : ""
                 }`}
               >
                 <span className="font-display text-lg font-bold text-brand-300">{String(index + 1).padStart(2, "0")}</span>
-                <span>{market}</span>
+                <span><T k={market.key} fallback={market.name} /></span>
               </li>
             ))}
           </ul>

@@ -6,6 +6,8 @@ export const siteCopy = {
       enquire: "Enquire",
       allBrands: "All brands",
       talk: "Talk to Our Team",
+      brandLine: "We're More Than Paper",
+      skipToContent: "Skip to content",
       proof: {
         since: "Operating since",
         capital: "Paid-up capital",
@@ -81,6 +83,35 @@ export const siteCopy = {
       exportNote: "Final specifications, commercial terms, documentation and timelines are confirmed in the formal proposal.",
       qualityEyebrow: "Standards",
       qualityTitle: "Quality & Programme Standards",
+      qualityPoints: {
+        specification: "Specification control",
+        hygiene: "Quality & hygiene requirements",
+        consistency: "Consistency & sampling approval",
+        documentation: "Documentation & tender readiness",
+      },
+      markets: {
+        hongkong: "Hong Kong",
+        unitedstates: "United States",
+        nigeria: "Nigeria",
+        singapore: "Singapore",
+        madagascar: "Madagascar",
+        thailand: "Thailand",
+        indonesia: "Indonesia",
+        mauritius: "Mauritius",
+        india: "India",
+      },
+    },
+    manufacturing: {
+      heroTitle: "Manufacturing & Quality",
+      heroLead: "Manufacturing capability, product specifications and quality-control information are available for commercial evaluation.",
+    },
+    solutions: {
+      eyebrow: "Solutions",
+      discuss: "Discuss your requirements",
+      notSure: "Not sure where your project fits?",
+    },
+    footer: {
+      tagline: "Malaysian tissue products, own brands and custom solutions—from concept to market.",
     },
     about: {
       heroTitle: "Company Profile",
@@ -126,6 +157,12 @@ export const siteCopy = {
         failed: "Something went wrong—please check the fields above or try again.",
         consent: "I consent to Unikota processing my submitted information for the purpose of responding to this enquiry.",
         success: "Thank you. Your enquiry has been received and our team will respond as soon as possible.",
+        types: {
+          general: "General",
+          oemPrivateLabel: "OEM / private label",
+          export: "Export",
+          retailSupport: "Retail support",
+        },
       },
     },
     brandPage: {
@@ -147,6 +184,7 @@ export const siteCopy = {
         summary: "The everyday serviette for Malaysian food.",
         story1: "Cili takes its name from something instantly familiar at the Malaysian table: bold flavour, everyday energy and food that brings people together.",
         story2: "Its 100g serviette pack is made for regular, high-volume use across Malay eateries, mamaks, food courts and catering tables where a practical, dependable serviette is always needed.",
+        spec: "100g paper serviettes, case of 6",
       },
       wasabi: {
         category: "Value food-service tissue",
@@ -154,6 +192,7 @@ export const siteCopy = {
         summary: "Spicy character. Practical everyday value.",
         story1: "Wasabi shares Cili's memorable, spicy character in a lighter 50g pack made for customers who need a more economical choice.",
         story2: "It fits naturally into Thai restaurants, street-food stalls, night markets and casual dining—more affordable than Cili, without giving up dependable everyday quality.",
+        spec: "50g paper serviette",
       },
       unisoft: {
         category: "Family tissue",
@@ -161,6 +200,7 @@ export const siteCopy = {
         summary: "Gentle care for every age.",
         story1: "Unisoft is built around a simple idea: softness for U & I. The name carries a sense of universal comfort—something gentle enough for daily life and for people across every age.",
         story2: "From facial tissues to toilet rolls and kitchen towels, Unisoft brings dependable softness into homes, offices and shared spaces.",
+        spec: "3-ply marble toilet roll, 10-roll pack",
       },
       aimishu: {
         category: "Hanging tissue",
@@ -168,6 +208,7 @@ export const siteCopy = {
         summary: "Cute, convenient care for daily life.",
         story1: "Aimishu is a playful, Japanese-inspired take on the words “I miss you”—a catchy name with a little warmth and personality.",
         story2: "Its hanging tissue format is designed for easy everyday use in Malaysian homes and small spaces: convenient, cheerful and always close at hand.",
+        spec: "Hanging tissue, 1180 4-ply",
       },
       babylike: {
         category: "Baby care",
@@ -175,6 +216,7 @@ export const siteCopy = {
         summary: "Practical, dependable diapers for daily baby care.",
         story1: "BabyLike is made for the everyday rhythm of caring for a growing baby—comfortable, practical and dependable through busy days and restful nights.",
         story2: "The brand keeps the promise uncomplicated: daily-use baby diapers that help families care with confidence.",
+        spec: "Super Pants, M/L/XL/XXL range",
       },
       sumo: {
         category: "Adult care",
@@ -182,6 +224,10 @@ export const siteCopy = {
         summary: "Strong absorbency and a generous, secure fit.",
         story1: "SUMO turns a bold, memorable name into a reassuring promise: strong absorbency, generous sizing and dependable protection.",
         story2: "Designed for adult care, the range focuses on a secure fit and everyday dignity—comfortable enough for daily routines and dependable when protection matters most.",
+        spec: "Adult diapers, size L & M",
+      },
+      cilipadi: {
+        description: "Cili Padi is the accessible value range introduced during the MCO period, when Malaysian households and small businesses needed a simple RM2 option that remained useful and dependable.",
       },
     },
   },
@@ -192,6 +238,8 @@ export const siteCopy = {
       enquire: "Buat pertanyaan",
       allBrands: "Semua jenama",
       talk: "Hubungi Pasukan Kami",
+      brandLine: "Kami Lebih Daripada Kertas",
+      skipToContent: "Langkau ke kandungan",
       proof: {
         since: "Beroperasi sejak",
         capital: "Modal berbayar",
@@ -267,6 +315,35 @@ export const siteCopy = {
       exportNote: "Spesifikasi akhir, terma komersial, dokumentasi dan garis masa disahkan dalam cadangan rasmi.",
       qualityEyebrow: "Piawaian",
       qualityTitle: "Kualiti & Piawaian Program",
+      qualityPoints: {
+        specification: "Kawalan spesifikasi",
+        hygiene: "Keperluan kualiti & kebersihan",
+        consistency: "Konsistensi & kelulusan sampel",
+        documentation: "Dokumentasi & kesediaan tender",
+      },
+      markets: {
+        hongkong: "Hong Kong",
+        unitedstates: "United States",
+        nigeria: "Nigeria",
+        singapore: "Singapore",
+        madagascar: "Madagascar",
+        thailand: "Thailand",
+        indonesia: "Indonesia",
+        mauritius: "Mauritius",
+        india: "India",
+      },
+    },
+    manufacturing: {
+      heroTitle: "Pembuatan & Kualiti",
+      heroLead: "Keupayaan pembuatan, spesifikasi produk dan maklumat kawalan kualiti tersedia untuk penilaian komersial.",
+    },
+    solutions: {
+      eyebrow: "Penyelesaian",
+      discuss: "Bincangkan keperluan anda",
+      notSure: "Tidak pasti di mana projek anda sesuai?",
+    },
+    footer: {
+      tagline: "Produk tisu Malaysia, jenama sendiri dan penyelesaian tersuai—daripada konsep ke pasaran.",
     },
     about: {
       heroTitle: "Profil Syarikat",
@@ -312,6 +389,12 @@ export const siteCopy = {
         failed: "Terdapat masalah—sila semak ruangan di atas atau cuba lagi.",
         consent: "Saya bersetuju Unikota memproses maklumat yang dihantar bagi tujuan menjawab pertanyaan ini.",
         success: "Terima kasih. Pertanyaan anda telah diterima dan pasukan kami akan membalas secepat mungkin.",
+        types: {
+          general: "Umum",
+          oemPrivateLabel: "OEM / label persendirian",
+          export: "Eksport",
+          retailSupport: "Sokongan runcit",
+        },
       },
     },
     brandPage: {
@@ -333,6 +416,7 @@ export const siteCopy = {
         summary: "Serviet harian untuk makanan Malaysia.",
         story1: "Cili mengambil nama daripada sesuatu yang begitu dekat dengan meja makan Malaysia: rasa berani, tenaga harian dan makanan yang menyatukan kita.",
         story2: "Pek serviet 100g dibuat untuk penggunaan harian yang tinggi di kedai makan Melayu, mamak, medan selera dan katering yang memerlukan serviet praktikal dan boleh diharap.",
+        spec: "Serviet kertas 100g, kotak 6",
       },
       wasabi: {
         category: "Tisu perkhidmatan makanan bernilai",
@@ -340,6 +424,7 @@ export const siteCopy = {
         summary: "Watak pedas. Nilai harian yang praktikal.",
         story1: "Wasabi membawa watak pedas dan mudah diingati seperti Cili dalam pek 50g yang lebih ringan untuk pelanggan yang mahukan pilihan lebih ekonomi.",
         story2: "Ia sesuai untuk restoran Thai, gerai makanan jalanan, pasar malam dan tempat makan santai—lebih mampu milik tanpa mengorbankan mutu harian yang boleh diharap.",
+        spec: "Serviet kertas 50g",
       },
       unisoft: {
         category: "Tisu keluarga",
@@ -347,6 +432,7 @@ export const siteCopy = {
         summary: "Sentuhan lembut untuk setiap usia.",
         story1: "Unisoft dibina atas idea mudah: kelembutan untuk U & I. Namanya membawa rasa keselesaan sejagat—cukup lembut untuk kehidupan harian dan semua peringkat usia.",
         story2: "Daripada tisu muka hingga tisu tandas dan tuala dapur, Unisoft membawa kelembutan yang boleh diharap ke rumah, pejabat dan ruang bersama.",
+        spec: "Tisu tandas marmar 3-lapis, pek 10 gulung",
       },
       aimishu: {
         category: "Tisu gantung",
@@ -354,6 +440,7 @@ export const siteCopy = {
         summary: "Penjagaan comel dan mudah untuk kehidupan harian.",
         story1: "Aimishu ialah olahan ceria berinspirasikan Jepun daripada kata “I miss you”—nama yang mudah diingati dengan sedikit kemesraan dan personaliti.",
         story2: "Format tisu gantungnya direka untuk kegunaan harian di rumah Malaysia dan ruang kecil: mudah, ceria dan sentiasa dekat.",
+        spec: "Tisu gantung, 1180 4-lapis",
       },
       babylike: {
         category: "Penjagaan bayi",
@@ -361,6 +448,7 @@ export const siteCopy = {
         summary: "Lampin praktikal dan boleh diharap untuk penjagaan bayi harian.",
         story1: "BabyLike dibuat untuk rutin harian menjaga bayi yang sedang membesar—selesa, praktikal dan boleh diharap sepanjang hari yang sibuk dan malam yang tenang.",
         story2: "Janjinya mudah: lampin bayi kegunaan harian yang membantu keluarga menjaga dengan yakin.",
+        spec: "Super Pants, saiz M/L/XL/XXL",
       },
       sumo: {
         category: "Penjagaan dewasa",
@@ -368,6 +456,10 @@ export const siteCopy = {
         summary: "Serapan kuat dengan padanan luas dan selamat.",
         story1: "SUMO menukar nama yang berani dan mudah diingati kepada satu janji: serapan kuat, saiz luas dan perlindungan yang boleh diharap.",
         story2: "Direka untuk penjagaan dewasa, rangkaian ini memberi tumpuan pada padanan selamat dan maruah harian—selesa untuk rutin dan boleh diharap apabila perlindungan paling diperlukan.",
+        spec: "Lampin dewasa, saiz L & M",
+      },
+      cilipadi: {
+        description: "Cili Padi ialah rangkaian nilai mampu milik yang diperkenalkan semasa tempoh PKP, ketika isi rumah Malaysia dan perniagaan kecil memerlukan pilihan RM2 yang mudah namun tetap berguna dan boleh diharap.",
       },
     },
   },
@@ -378,6 +470,8 @@ export const siteCopy = {
       enquire: "咨询",
       allBrands: "所有品牌",
       talk: "联系我们",
+      brandLine: "我们不止于纸",
+      skipToContent: "跳至内容",
       proof: {
         since: "成立于",
         capital: "实缴资本",
@@ -453,6 +547,35 @@ export const siteCopy = {
       exportNote: "最终规格、商业条款、文件及时间表以正式方案为准。",
       qualityEyebrow: "标准",
       qualityTitle: "质量与项目标准",
+      qualityPoints: {
+        specification: "规格管控",
+        hygiene: "质量与卫生要求",
+        consistency: "一致性与样品确认",
+        documentation: "文件与招标准备",
+      },
+      markets: {
+        hongkong: "中国香港",
+        unitedstates: "美国",
+        nigeria: "尼日利亚",
+        singapore: "新加坡",
+        madagascar: "马达加斯加",
+        thailand: "泰国",
+        indonesia: "印度尼西亚",
+        mauritius: "毛里求斯",
+        india: "印度",
+      },
+    },
+    manufacturing: {
+      heroTitle: "制造与质量",
+      heroLead: "制造能力、产品规格及质量控制信息可供商业评估。",
+    },
+    solutions: {
+      eyebrow: "解决方案",
+      discuss: "讨论您的需求",
+      notSure: "不确定您的项目适合哪一类？",
+    },
+    footer: {
+      tagline: "马来西亚纸巾产品、自有品牌及定制解决方案——从概念到市场。",
     },
     about: {
       heroTitle: "公司简介",
@@ -498,6 +621,12 @@ export const siteCopy = {
         failed: "出现问题，请检查以上内容或重试。",
         consent: "我同意 Unikota 处理所提交的资料，以便回复本次咨询。",
         success: "谢谢。我们已收到您的咨询，团队会尽快回复。",
+        types: {
+          general: "一般咨询",
+          oemPrivateLabel: "OEM / 自有品牌",
+          export: "出口",
+          retailSupport: "零售支持",
+        },
       },
     },
     brandPage: {
@@ -519,6 +648,7 @@ export const siteCopy = {
         summary: "马来西亚餐饮日常使用的纸餐巾。",
         story1: "Cili 的名字来自马来西亚餐桌上最熟悉的元素：鲜明风味、日常活力，以及让人相聚的美食。",
         story2: "100 克纸餐巾适合马来餐馆、嘛嘛档、美食中心和餐饮服务的高频日常使用，实用而可靠。",
+        spec: "100 克纸餐巾，6 包装",
       },
       wasabi: {
         category: "实惠餐饮纸巾",
@@ -526,6 +656,7 @@ export const siteCopy = {
         summary: "鲜明个性。实用日常价值。",
         story1: "Wasabi 延续 Cili 鲜明易记的个性，以更轻巧的 50 克包装，为需要经济选择的顾客而设。",
         story2: "适合泰国餐厅、街边小吃、夜市及休闲餐饮，价格更亲民，同时保持可靠的日常品质。",
+        spec: "50 克纸餐巾",
       },
       unisoft: {
         category: "家庭纸巾",
@@ -533,6 +664,7 @@ export const siteCopy = {
         summary: "适合每个年龄的温柔呵护。",
         story1: "Unisoft 围绕一个简单理念：给 U & I 的柔软。品牌名代表普适的舒适感，为日常生活和不同年龄的人带来温柔触感。",
         story2: "从面纸、卫生纸到厨房纸巾，Unisoft 把可靠的柔软带进家庭、办公室和共享空间。",
+        spec: "3 层大理石纹卫生纸，10 卷装",
       },
       aimishu: {
         category: "悬挂式纸巾",
@@ -540,6 +672,7 @@ export const siteCopy = {
         summary: "可爱、方便的日常呵护。",
         story1: "Aimishu 是对“I miss you”的日式趣味演绎，名字好记，也带着一点温暖与个性。",
         story2: "悬挂式设计适合马来西亚家庭和小空间的日常使用：方便、轻松，随手可及。",
+        spec: "悬挂式纸巾，1180 4 层",
       },
       babylike: {
         category: "婴儿护理",
@@ -547,6 +680,7 @@ export const siteCopy = {
         summary: "实用可靠的日常婴儿纸尿裤。",
         story1: "BabyLike 为照顾成长中宝宝的日常节奏而设计，在忙碌白天与安稳夜晚都带来舒适、实用和可靠。",
         story2: "品牌承诺简单明确：让家人更安心照顾宝宝的日用纸尿裤。",
+        spec: "Super Pants，M/L/XL/XXL 尺码",
       },
       sumo: {
         category: "成人护理",
@@ -554,6 +688,10 @@ export const siteCopy = {
         summary: "强效吸收，宽裕且稳妥贴合。",
         story1: "SUMO 以大胆易记的名字传达安心承诺：强效吸收、宽裕尺码及可靠保护。",
         story2: "成人护理系列注重稳妥贴合与日常尊严，适合每日使用，在最需要保护时值得信赖。",
+        spec: "成人纸尿裤，L 与 M 尺码",
+      },
+      cilipadi: {
+        description: "Cili Padi 是在行动管制令期间推出的实惠系列，当时马来西亚家庭和小商户需要一个简单的 RM2 选择，既实用又可靠。",
       },
     },
   },

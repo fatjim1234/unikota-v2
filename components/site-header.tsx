@@ -24,7 +24,7 @@ export function SiteHeader() {
         href="#main"
         className="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:bg-white focus:px-3 focus:py-2 focus:text-brand-800"
       >
-        Skip to content
+        {t("site.common.skipToContent")}
       </a>
 
       <div className="mx-auto flex min-h-[78px] max-w-page items-center justify-between gap-5 px-4 sm:px-6 lg:px-8">

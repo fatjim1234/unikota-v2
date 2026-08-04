@@ -7,6 +7,15 @@ import { useI18n } from "@/lib/i18n";
 
 type Errors = Partial<Record<"name" | "email" | "type" | "message" | "consent", string>>;
 
+// Maps the canonical English enquiry-type values (from content/contact.json) to
+// their translation keys. The submitted <option> value stays English.
+const typeLabelKeys: Record<string, string> = {
+  General: "site.contact.form.types.general",
+  "OEM / private label": "site.contact.form.types.oemPrivateLabel",
+  Export: "site.contact.form.types.export",
+  "Retail support": "site.contact.form.types.retailSupport",
+};
+
 /**
  * Accessible lead/enquiry form.
  * - Every input has a visible <label>; errors are announced via role="alert"
@@ -106,9 +115,13 @@ export function LeadForm({
           <label htmlFor="lead-type" className="mb-1 block text-sm font-medium">{t("site.contact.form.type")} *</label>
           <select id="lead-type" name="type" defaultValue={types[0]} className={`${field} ${err("type")}`}
             aria-invalid={!!errors.type} aria-describedby={errors.type ? "lead-type-error" : undefined}>
-            {types.map((t) => (
-              <option key={t} value={t}>{t}</option>
-            ))}
+            {types.map((opt) => {
+              // Value stays the canonical English string so lead categorisation is
+              // locale-independent; only the visible label is translated.
+              const labelKey = typeLabelKeys[opt];
+              const label = labelKey ? t(labelKey) : opt;
+              return <option key={opt} value={opt}>{label}</option>;
+            })}
           </select>
           {errors.type ? <p id="lead-type-error" role="alert" className="mt-1 text-xs text-red-700">{errors.type}</p> : null}
         </div>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Button, Eyebrow, PageHero, Section } from "@/components/ui";
 import { ProductVisual } from "@/components/product-visual";
+import { T } from "@/components/translated-text";
 import { getContent, type SolutionsContent } from "@/lib/content";
 import solutionsFallback from "@/content/solutions.json";
 
@@ -22,9 +23,9 @@ export default async function SolutionsPage() {
 
   return (
     <>
-      <PageHero eyebrow="We're More Than Paper" title={c.hero.title} lead={c.hero.lead}>
+      <PageHero eyebrow={<T k="site.common.brandLine" fallback="We're More Than Paper" />} title={c.hero.title} lead={c.hero.lead}>
         <Button href="/contact" className="!bg-white !text-brand-800 hover:!bg-brand-50">
-          Request a Proposal
+          <T k="site.oem.proposal" fallback="Request a Proposal" />
         </Button>
       </PageHero>
 
@@ -39,7 +40,7 @@ export default async function SolutionsPage() {
               {/* Future lifestyle/project image slot — see docs/website-asset-manifest.md (solutions.<slug>) */}
               <ProductVisual slot={`solutions.${g.slug}`} variant={VISUALS[i % VISUALS.length]} />
               <div>
-                <Eyebrow>Solutions</Eyebrow>
+                <Eyebrow><T k="site.solutions.eyebrow" fallback="Solutions" /></Eyebrow>
                 <h2 className="text-2xl font-bold text-ink">{g.title}</h2>
                 <p className="mt-3 max-w-xl text-sm leading-relaxed text-stone-600 sm:text-base">{g.body}</p>
                 <ul className="mt-4 grid gap-x-6 gap-y-1.5 text-sm text-stone-700 sm:grid-cols-2">
@@ -51,7 +52,7 @@ export default async function SolutionsPage() {
                   ))}
                 </ul>
                 <div className="mt-5">
-                  <Button href="/contact" variant="secondary">Discuss your requirements</Button>
+                  <Button href="/contact" variant="secondary"><T k="site.solutions.discuss" fallback="Discuss your requirements" /></Button>
                 </div>
               </div>
             </article>
@@ -61,9 +62,9 @@ export default async function SolutionsPage() {
 
       <section className="bg-brand-800 text-white">
         <div className="mx-auto flex max-w-page flex-col items-start gap-6 px-4 py-12 sm:px-6 lg:flex-row lg:items-center lg:justify-between">
-          <h2 className="text-2xl font-bold">Not sure where your project fits?</h2>
+          <h2 className="text-2xl font-bold"><T k="site.solutions.notSure" fallback="Not sure where your project fits?" /></h2>
           <Button href="/contact" className="shrink-0 !bg-white !text-brand-800 hover:!bg-brand-50">
-            Request a Proposal
+            <T k="site.oem.proposal" fallback="Request a Proposal" />
           </Button>
         </div>
       </section>

@@ -19,9 +19,9 @@ export default async function AboutPage() {
   return (
     <>
       {/* 1 — HERO */}
-      <PageHero eyebrow={c.brandLine ?? "We're More Than Paper"} title={<T k="site.about.heroTitle" fallback={c.hero.title} />} lead={<T k="site.about.heroLead" fallback={c.hero.lead} />}>
+      <PageHero eyebrow={<T k="site.common.brandLine" fallback={c.brandLine ?? "We're More Than Paper"} />} title={<T k="site.about.heroTitle" fallback={c.hero.title} />} lead={<T k="site.about.heroLead" fallback={c.hero.lead} />}>
         <Button href="/contact" className="!bg-white !text-brand-800 hover:!bg-brand-50">
-          Request a Proposal
+          <T k="site.oem.proposal" fallback="Request a Proposal" />
         </Button>
       </PageHero>
 
@@ -124,9 +124,12 @@ export default async function AboutPage() {
       {c.facts && c.facts.length > 0 ? (
         <Section title={<T k="site.about.facts" />}>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {c.facts.map((f) => (
-              <Stat key={f.label} value={f.value} label={f.label} />
-            ))}
+            {c.facts.map((f, index) => {
+              // Reuse the existing proof labels (Home/OEM stats band) rather than
+              // duplicating — same four concepts in the same order.
+              const proofKeys = ["site.common.proof.since", "site.common.proof.capital", "site.common.proof.outlets", "site.common.proof.markets"];
+              return <Stat key={f.label} value={f.value} label={<T k={proofKeys[index] ?? ""} fallback={f.label} />} />;
+            })}
           </div>
         </Section>
       ) : null}

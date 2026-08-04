@@ -127,7 +127,7 @@ export default async function BrandFeaturePage({ params }: BrandPageProps) {
             <div>
               <p className="font-display text-sm font-semibold uppercase tracking-[0.2em]" style={{ color: brand.accent }}><T k="site.brandPage.underCili" /></p>
               <h2 className="mt-2 font-display text-4xl font-bold text-brand-900"><T k="site.brandPage.valueTitle" /></h2>
-              <p className="mt-4 max-w-3xl text-lg leading-8 text-stone-700">{brand.subBrand.description}</p>
+              <p className="mt-4 max-w-3xl text-lg leading-8 text-stone-700"><T k="site.brands.cilipadi.description" fallback={brand.subBrand.description} /></p>
             </div>
           </div>
         </section>

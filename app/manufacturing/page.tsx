@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Button, Card, PageHero, PlaceholderBlock, Section } from "@/components/ui";
 import { WhatsAppButton } from "@/components/whatsapp-button";
+import { T } from "@/components/translated-text";
 import { getContent, type ManufacturingContent } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -13,8 +14,8 @@ export default async function ManufacturingPage() {
   const c = await getContent<ManufacturingContent>("manufacturing");
   return (
     <>
-      <PageHero title={c.hero.title} lead={c.hero.lead}>
-        <Button href="/contact">Request a Proposal</Button>
+      <PageHero title={<T k="site.manufacturing.heroTitle" fallback={c.hero.title} />} lead={<T k="site.manufacturing.heroLead" fallback={c.hero.lead} />}>
+        <Button href="/contact"><T k="site.oem.proposal" fallback="Request a Proposal" /></Button>
         <WhatsAppButton context="Manufacturing capabilities enquiry" />
       </PageHero>
       <Section title="Facility">

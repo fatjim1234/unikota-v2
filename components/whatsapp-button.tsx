@@ -1,6 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import { useI18n } from "@/lib/i18n";
 
 /**
  * WhatsApp click-to-chat CTA with pre-filled enquiry context.
@@ -10,7 +11,7 @@ import { usePathname } from "next/navigation";
  */
 export function WhatsAppButton({
   context,
-  label = "Chat on WhatsApp",
+  label,
   className = "",
   number: numberProp,
 }: {
@@ -21,6 +22,8 @@ export function WhatsAppButton({
   number?: string;
 }) {
   const pathname = usePathname();
+  const { t } = useI18n();
+  const resolvedLabel = label ?? t("common.chatWhatsApp");
   const number = (numberProp ?? process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "").replace(/\D/g, "");
   const base =
     "focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-lg px-5 py-2.5 text-sm font-semibold transition-colors";
@@ -41,7 +44,7 @@ export function WhatsAppButton({
       data-testid="whatsapp-cta"
       className={`${base} bg-emerald-600 text-white hover:bg-emerald-700 ${className}`}
     >
-      {label}
+      {resolvedLabel}
     </a>
   );
 }
