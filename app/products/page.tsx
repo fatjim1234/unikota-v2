@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui";
-import { MarketingIcon, type MarketingIconName } from "@/components/marketing-icons";
+import { MarketingIcon } from "@/components/marketing-icons";
 import { T } from "@/components/translated-text";
 import { brandPortfolio } from "@/lib/brand-portfolio";
 
@@ -14,90 +14,6 @@ export const metadata: Metadata = {
 
 const tissueBrands = brandPortfolio.slice(0, 4);
 const careBrands = brandPortfolio.slice(4);
-
-const productFamilies: {
-  title: string;
-  brands: string;
-  description: string;
-  image?: string;
-  icon?: MarketingIconName;
-  href: string;
-  accent: string;
-  tint: string;
-}[] = [
-  {
-    title: "Facial Tissue",
-    brands: "Unisoft",
-    description: "Box and soft-pack formats for homes, offices, retail and institutional use.",
-    image: "/images/unikota/product-facial.webp",
-    href: "/products/unisoft",
-    accent: "#298dc8",
-    tint: "#edf8fd",
-  },
-  {
-    title: "Hanging Tissue",
-    brands: "Aimishu",
-    description: "Space-saving packs made for convenient everyday access.",
-    image: "/images/unikota/product-hanging.webp",
-    href: "/products/aimishu",
-    accent: "#168f88",
-    tint: "#edf9f7",
-  },
-  {
-    title: "Serviettes & Napkins",
-    brands: "Cili · Wasabi · Cili Padi",
-    description: "Practical paper serviettes for mamaks, restaurants, street food and catering.",
-    image: "/images/unikota/product-serviettes.webp",
-    href: "/products/cili",
-    accent: "#e3292f",
-    tint: "#fff3f2",
-  },
-  {
-    title: "Toilet Rolls",
-    brands: "Unisoft",
-    description: "Multi-pack and bulk options for households, washrooms and institutions.",
-    icon: "package",
-    href: "/products/unisoft",
-    accent: "#00297A",
-    tint: "#eef5ff",
-  },
-  {
-    title: "Kitchen Towels",
-    brands: "Unisoft",
-    description: "Absorbent everyday rolls for kitchens, food service and cleaning routines.",
-    icon: "storefront",
-    href: "/products/unisoft",
-    accent: "#00297A",
-    tint: "#f4f8fb",
-  },
-  {
-    title: "Baby Care",
-    brands: "BabyLike",
-    description: "Everyday diapers for daily baby care and growing little ones.",
-    icon: "package",
-    href: "/products/babylike",
-    accent: "#4c3d95",
-    tint: "#f4f1ff",
-  },
-  {
-    title: "Adult Care",
-    brands: "SUMO",
-    description: "High-absorbency adult diapers built for a secure, confident everyday fit.",
-    icon: "package",
-    href: "/products/sumo",
-    accent: "#174a91",
-    tint: "#eef5ff",
-  },
-  {
-    title: "Custom & OEM",
-    brands: "Your brand, our capability",
-    description: "Product format, artwork, packaging and supply developed around your project.",
-    image: "/images/unikota/product-oem.webp",
-    href: "/oem",
-    accent: "#00297A",
-    tint: "#eef5ff",
-  },
-];
 
 export default function ProductsPage() {
   return (
@@ -138,7 +54,7 @@ export default function ProductsPage() {
                     alt={`${brand.name} products`}
                     fill
                     sizes="(min-width: 1024px) 50vw, 100vw"
-                    className="object-contain p-10"
+                    className="object-contain p-2"
                   />
                 ) : null}
               </div>
@@ -164,12 +80,12 @@ export default function ProductsPage() {
               <Link
                 key={brand.slug}
                 href={`/products/${brand.slug}`}
-                className="focus-ring group grid min-h-[280px] border border-stone-200 p-8 sm:grid-cols-[40%_60%] sm:p-10"
+                className="focus-ring group grid min-h-[340px] border border-stone-200 p-8 sm:grid-cols-[60%_40%] sm:p-8"
                 style={{ backgroundColor: brand.tint, borderTop: `6px solid ${brand.accent}` }}
               >
-                <div className="relative min-h-24 sm:min-h-full">
+                <div className="relative min-h-28 sm:min-h-full">
                   {brand.image ? (
-                    <Image src={brand.image} alt={`${brand.name} products`} fill sizes="280px" className="object-contain p-2" />
+                    <Image src={brand.image} alt={`${brand.name} products`} fill sizes="440px" className="object-contain" />
                   ) : (
                     <Image src={brand.logo} alt={`${brand.name} logo`} fill sizes="280px" className="object-contain object-left" />
                   )}
@@ -181,34 +97,6 @@ export default function ProductsPage() {
                   <span className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-bold" style={{ color: brand.accent }}>
                     <T k="site.common.explore" fallback="Explore" /> {brand.name} <MarketingIcon name="arrow" size={16} />
                   </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-white px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
-        <div className="mx-auto max-w-page">
-          <h2 className="font-display text-2xl font-bold text-brand-900"><T k="site.products.productsTitle" fallback="Product families" /></h2>
-          <div className="mt-8 flex flex-wrap gap-6 sm:gap-8">
-            {productFamilies.slice(0, 6).map((family) => (
-              <Link
-                key={family.title}
-                href={family.href}
-                className="focus-ring group flex flex-col items-center gap-3 text-center hover:opacity-70 transition-opacity"
-              >
-                <div className="rounded-full p-4" style={{ backgroundColor: family.tint }}>
-                  {family.image ? (
-                    <div className="relative h-12 w-12 overflow-hidden">
-                      <Image src={family.image} alt={family.title} fill className="object-cover rounded-full" sizes="48px" />
-                    </div>
-                  ) : (
-                    <MarketingIcon name={family.icon ?? "package"} size={48} style={{ color: family.accent }} />
-                  )}
-                </div>
-                <div>
-                  <p className="text-sm font-semibold text-brand-900"><T k={`site.products.family${productFamilies.indexOf(family) + 1}.title`} fallback={family.title} /></p>
                 </div>
               </Link>
             ))}
