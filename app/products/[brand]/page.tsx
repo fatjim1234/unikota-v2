@@ -55,7 +55,7 @@ export default async function BrandFeaturePage({ params }: BrandPageProps) {
             </div>
           </div>
 
-          <div className="relative min-h-[420px] overflow-hidden lg:min-h-full" style={{ backgroundColor: brand.accent }}>
+          <div className="relative min-h-[420px] overflow-hidden lg:min-h-full">
             {brand.image ? (
               <Image
                 src={brand.image}
@@ -63,7 +63,7 @@ export default async function BrandFeaturePage({ params }: BrandPageProps) {
                 fill
                 priority
                 sizes="(min-width: 1024px) 52vw, 100vw"
-                className="object-cover"
+                className="object-contain p-4 sm:p-8"
               />
             ) : (
               <div className="flex h-full min-h-[420px] items-center justify-center p-12">
