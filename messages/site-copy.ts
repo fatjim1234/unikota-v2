@@ -12,7 +12,7 @@ export const siteCopy = {
         since: "Operating since",
         capital: "Paid-up capital",
         outlets: "Malaysian retail outlets",
-        markets: "Export markets",
+        markets: "Exporting markets",
       },
     },
     home: {

@@ -15,7 +15,7 @@ const proof: { value: string; label: string; labelKey: string; icon: MarketingIc
   { value: "1983", label: "Operating since", labelKey: "site.common.proof.since", icon: "calendar" },
   { value: "RM2.9M", label: "Paid-up capital", labelKey: "site.common.proof.capital", icon: "chart" },
   { value: "Thousands", label: "Malaysian retail outlets", labelKey: "site.common.proof.outlets", icon: "storefront" },
-  { value: "9", label: "Export markets", labelKey: "site.common.proof.markets", icon: "globe" },
+  { value: "9", label: "Exporting markets", labelKey: "site.common.proof.markets", icon: "globe" },
 ];
 
 const pathways = [
