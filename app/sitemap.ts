@@ -1,7 +1,9 @@
 import type { MetadataRoute } from "next";
 import { brandPortfolio } from "@/lib/brand-portfolio";
 
-const BASE = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const BASE =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.NODE_ENV === "production" ? "https://www.unikota.com" : "http://localhost:3000");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [

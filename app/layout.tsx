@@ -12,7 +12,10 @@ import { SiteFooter, type FooterFacts } from "@/components/site-footer";
 import { getContent, type SettingsContent } from "@/lib/content";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ??
+      (process.env.NODE_ENV === "production" ? "https://www.unikota.com" : "http://localhost:3000"),
+  ),
   title: {
     default: "Unikota — Tissue Manufacturing, OEM & Retail",
     template: "%s",
