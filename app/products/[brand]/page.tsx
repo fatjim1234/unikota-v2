@@ -100,7 +100,7 @@ export default async function BrandFeaturePage({ params }: BrandPageProps) {
                 </div>
                 <div className="flex flex-1 flex-col p-6">
                   <p className="font-display text-sm font-bold" style={{ color: brand.accent }}>{String(index + 1).padStart(2, "0")}</p>
-                  <h3 className="mt-2 font-display text-xl font-bold text-brand-900">{product.name}</h3>
+                  <h3 className="mt-2 font-display text-xl font-bold text-brand-900"><T k={`site.brandSkus.${brand.slug}.${index}`} fallback={product.name} /></h3>
                   <Link href="/contact" className="focus-ring mt-auto pt-5 inline-flex items-center gap-2 text-sm font-bold" style={{ color: brand.accent }}>
                     <T k="site.common.enquire" /> <MarketingIcon name="arrow" size={17} />
                   </Link>

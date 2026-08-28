@@ -229,6 +229,14 @@ export const siteCopy = {
       moreBrands: "More Unikota brands",
       fullPortfolio: "View the full portfolio",
     },
+    brandSkus: {
+      cili: ["100g paper serviettes, case of 6", "Paper serviette, single pack", "Luncheon napkin", "Pull-up napkin tissue, 200 sheets", "Hanging kitchen towel", "Kitchen towel, 1 roll", "Jumbo roll, 8 rolls x 200m", "Facial tissue, 180 sheets"],
+      wasabi: ["50g paper serviette", "200gm paper serviette", "50gm serviette, 12-pack value case"],
+      unisoft: ["3-ply marble toilet roll, 10-roll pack", "3-ply toilet roll, single", "Facial tissue box, 2-ply 70s x 2"],
+      aimishu: ["Hanging tissue, 1180 4-ply", "Hanging tissue, 1048 4-ply"],
+      babylike: ["Super Pants, M/L/XL/XXL range", "Tape diaper, size M"],
+      sumo: ["Adult diapers, size L & M", "Adult diaper, size L"],
+    },
     brands: {
       cili: {
         category: "Food-service tissue",
@@ -513,6 +521,14 @@ export const siteCopy = {
       moreBrands: "Lebih banyak jenama Unikota",
       fullPortfolio: "Lihat portfolio penuh",
     },
+    brandSkus: {
+      cili: ["100g paper serviettes, kotak 6", "Paper serviette, pek tunggal", "Luncheon napkin", "Pull-up napkin tissue, 200 helai", "Hanging kitchen towel", "Kitchen towel, 1 gulung", "Jumbo roll, 8 gulung x 200m", "Facial tissue, 180 helai"],
+      wasabi: ["50g paper serviette", "200gm paper serviette", "50gm serviette, kotak nilai 12 pek"],
+      unisoft: ["3-ply marble toilet roll, pek 10 gulung", "3-ply toilet roll, tunggal", "Facial tissue box, 2-lapis 70 helai x 2"],
+      aimishu: ["Hanging tissue, 1180 helai 4-lapis", "Hanging tissue, 1048 helai 4-lapis"],
+      babylike: ["Super Pants, julat saiz M/L/XL/XXL", "Tape diaper, saiz M"],
+      sumo: ["Adult diapers, saiz L & M", "Adult diaper, saiz L"],
+    },
     brands: {
       cili: {
         category: "Tisu perkhidmatan makanan",
@@ -796,6 +812,14 @@ export const siteCopy = {
       keepExploring: "继续探索",
       moreBrands: "更多 Unikota 品牌",
       fullPortfolio: "查看完整品牌组合",
+    },
+    brandSkus: {
+      cili: ["100g paper serviettes，6 包装", "Paper serviette，单包装", "Luncheon napkin", "Pull-up napkin tissue，200 张", "Hanging kitchen towel", "Kitchen towel，1 卷", "Jumbo roll，8 卷 x 200米", "Facial tissue，180 张"],
+      wasabi: ["50g paper serviette", "200gm paper serviette", "50gm serviette，12 包装超值箱"],
+      unisoft: ["3-ply marble toilet roll，10 卷装", "3-ply toilet roll，单卷", "Facial tissue box，2 层 70 张 x 2"],
+      aimishu: ["Hanging tissue，1180 张 4 层", "Hanging tissue，1048 张 4 层"],
+      babylike: ["Super Pants，M/L/XL/XXL 尺码", "Tape diaper，M 尺码"],
+      sumo: ["Adult diapers，L 与 M 尺码", "Adult diaper，L 尺码"],
     },
     brands: {
       cili: {
