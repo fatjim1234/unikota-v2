@@ -41,13 +41,13 @@ export default async function SolutionsPage() {
               <ProductVisual slot={`solutions.${g.slug}`} variant={VISUALS[i % VISUALS.length]} />
               <div>
                 <Eyebrow><T k="site.solutions.eyebrow" fallback="Solutions" /></Eyebrow>
-                <h2 className="text-2xl font-bold text-ink">{g.title}</h2>
-                <p className="mt-3 max-w-xl text-sm leading-relaxed text-stone-600 sm:text-base">{g.body}</p>
+                <h2 className="text-2xl font-bold text-ink"><T k={`site.solutions.groups.${g.slug}.title`} fallback={g.title} /></h2>
+                <p className="mt-3 max-w-xl text-sm leading-relaxed text-stone-600 sm:text-base"><T k={`site.solutions.groups.${g.slug}.body`} fallback={g.body} /></p>
                 <ul className="mt-4 grid gap-x-6 gap-y-1.5 text-sm text-stone-700 sm:grid-cols-2">
-                  {g.items.map((item) => (
+                  {g.items.map((item, ii) => (
                     <li key={item} className="flex items-start gap-2">
                       <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-500" />
-                      {item}
+                      <T k={`site.solutions.groups.${g.slug}.items.${ii}`} fallback={item} />
                     </li>
                   ))}
                 </ul>

@@ -121,6 +121,14 @@ export const siteCopy = {
       eyebrow: "Solutions",
       discuss: "Discuss your requirements",
       notSure: "Not sure where your project fits?",
+      groups: {
+        household: { title: "Household", body: "Everyday tissue for Malaysian homes — soft, dependable and widely available through retail channels.", items: ["Unisoft facial tissue", "Aimishu hanging tissue", "Facial tissue", "Hanging tissue", "Toilet rolls", "Kitchen towels"] },
+        retail: { title: "Retail Chains & Distributors", body: "Retail-ready supply across Unikota's own brands, with wholesale, distribution and range-development support.", items: ["Cili", "Wasabi", "Unisoft", "Aimishu", "Retail-ready packaging", "Wholesale and distribution supply", "Range development", "Private-label opportunities"] },
+        horeca: { title: "Restaurants, Cafés & HoReCa", body: "Front-of-house and back-of-house paper products for food service, with customised branded serviettes for venues that want their identity on the table.", items: ["Cili and Wasabi serviettes", "Napkins", "Kitchen towels", "Toilet rolls", "Washroom formats", "Customised branded serviettes"] },
+        corporate: { title: "Corporate & Institutional", body: "Reliable tissue supply for offices, facilities and institutions — including customised corporate tissue and coordinated delivery across locations.", items: ["Facial tissue boxes", "Washroom products", "Pantry tissue", "Customised corporate tissue", "Branded packs", "Multi-location delivery"] },
+        events: { title: "Events & Corporate Gifting", body: "Customised tissue products designed around campaigns, events and gifting programmes — from concept and packaging design through production and delivery.", items: ["Customised boxes and packs", "Campaign packaging", "Event products", "Limited editions", "Corporate gifts", "Licensed-brand projects where rights are approved"] },
+        "oem-export": { title: "OEM, Private Label & Export", body: "End-to-end support for customer-owned brands — from product development and packaging design through manufacturing, packing and export coordination.", items: ["Product development", "Packaging design", "Artwork finalisation", "Manufacturing and packing", "Carton planning", "Delivery coordination", "Export support"] },
+      },
     },
     footer: {
       tagline: "Malaysian tissue products, own brands and custom solutions—from concept to market.",
@@ -366,6 +374,14 @@ export const siteCopy = {
       eyebrow: "Penyelesaian",
       discuss: "Bincangkan keperluan anda",
       notSure: "Tidak pasti di mana projek anda sesuai?",
+      groups: {
+        household: { title: "Isi Rumah", body: "Tisu harian untuk rumah di Malaysia — lembut, boleh diharap dan mudah didapati di kedai runcit.", items: ["Tisu muka Unisoft", "Tisu gantung Aimishu", "Tisu muka", "Tisu gantung", "Tisu tandas", "Tuala dapur"] },
+        retail: { title: "Rangkaian Runcit & Pengedar", body: "Bekalan sedia runcit untuk semua jenama Unikota, dengan sokongan borong, pengedaran dan pembangunan rangkaian produk.", items: ["Cili", "Wasabi", "Unisoft", "Aimishu", "Pembungkusan sedia runcit", "Bekalan borong dan pengedaran", "Pembangunan rangkaian produk", "Peluang label persendirian"] },
+        horeca: { title: "Restoran, Kafe & HoReCa", body: "Produk kertas untuk kegunaan hadapan dan belakang dapur dalam perkhidmatan makanan, termasuk serviet berjenama tersuai untuk premis yang mahukan identiti mereka di atas meja.", items: ["Serviet Cili dan Wasabi", "Napkin", "Tuala dapur", "Tisu tandas", "Format bilik air", "Serviet berjenama tersuai"] },
+        corporate: { title: "Korporat & Institusi", body: "Bekalan tisu yang boleh diharap untuk pejabat, kemudahan dan institusi — termasuk tisu korporat tersuai dan penghantaran diselaraskan merentas lokasi.", items: ["Kotak tisu muka", "Produk bilik air", "Tisu pantri", "Tisu korporat tersuai", "Pek berjenama", "Penghantaran pelbagai lokasi"] },
+        events: { title: "Acara & Hadiah Korporat", body: "Produk tisu tersuai yang direka untuk kempen, acara dan program pemberian hadiah — daripada konsep dan reka bentuk pembungkusan hingga pengeluaran dan penghantaran.", items: ["Kotak dan pek tersuai", "Pembungkusan kempen", "Produk acara", "Edisi terhad", "Hadiah korporat", "Projek jenama berlesen apabila hak diluluskan"] },
+        "oem-export": { title: "OEM, Label Persendirian & Eksport", body: "Sokongan menyeluruh untuk jenama milik pelanggan — daripada pembangunan produk dan reka bentuk pembungkusan hingga pembuatan, pembungkusan dan penyelarasan eksport.", items: ["Pembangunan produk", "Reka bentuk pembungkusan", "Pemuktamadan karya seni", "Pembuatan dan pembungkusan", "Perancangan karton", "Penyelarasan penghantaran", "Sokongan eksport"] },
+      },
     },
     footer: {
       tagline: "Produk tisu Malaysia, jenama sendiri dan penyelesaian tersuai—daripada konsep ke pasaran.",
@@ -611,6 +627,14 @@ export const siteCopy = {
       eyebrow: "解决方案",
       discuss: "讨论您的需求",
       notSure: "不确定您的项目适合哪一类？",
+      groups: {
+        household: { title: "家庭", body: "为马来西亚家庭提供的日常纸巾——柔软、可靠，零售渠道随处可得。", items: ["Unisoft 面纸", "Aimishu 悬挂式纸巾", "面纸", "悬挂式纸巾", "卫生纸", "厨房纸巾"] },
+        retail: { title: "零售连锁与经销商", body: "覆盖 Unikota 各自有品牌的零售供货，并提供批发、分销及产品线拓展支持。", items: ["Cili", "Wasabi", "Unisoft", "Aimishu", "零售包装", "批发与分销供货", "产品线拓展", "自有品牌合作机会"] },
+        horeca: { title: "餐厅、咖啡馆与餐旅业", body: "为餐饮服务提供前厅和后厨纸品，并为希望在餐桌上展现自身品牌的场所提供定制品牌餐巾。", items: ["Cili 与 Wasabi 餐巾", "餐巾", "厨房纸巾", "卫生纸", "洗手间用品", "定制品牌餐巾"] },
+        corporate: { title: "企业与机构", body: "为办公室、设施及机构提供可靠的纸巾供货——包括定制企业纸巾和跨地点统一配送。", items: ["面纸盒", "洗手间用品", "茶水间纸巾", "定制企业纸巾", "品牌包装", "多地点配送"] },
+        events: { title: "活动与企业礼赠", body: "围绕活动、庆典和礼赠项目设计的定制纸品——从概念、包装设计到生产与交付。", items: ["定制盒装与包装", "活动包装", "活动产品", "限量版", "企业礼品", "获授权的品牌合作项目"] },
+        "oem-export": { title: "OEM、自有品牌与出口", body: "为客户自有品牌提供端到端支持——从产品开发、包装设计到制造、包装及出口协调。", items: ["产品开发", "包装设计", "美工定稿", "制造与包装", "纸箱规划", "配送协调", "出口支持"] },
+      },
     },
     footer: {
       tagline: "马来西亚纸巾产品、自有品牌及定制解决方案——从概念到市场。",
