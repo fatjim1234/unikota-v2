@@ -13,6 +13,7 @@ export const siteCopy = {
         capital: "Paid-up capital",
         outlets: "Malaysian retail outlets",
         markets: "Exporting markets",
+        thousandsValue: "Thousands",
       },
     },
     home: {
@@ -89,6 +90,7 @@ export const siteCopy = {
       exportNote: "Final specifications, commercial terms, documentation and timelines are confirmed in the formal proposal.",
       qualityEyebrow: "Standards",
       qualityTitle: "Quality & Programme Standards",
+      scaleHeading: "The same operating scale behind every OEM and export programme",
       qualityPoints: {
         specification: "Specification control",
         hygiene: "Quality & hygiene requirements",
@@ -108,10 +110,14 @@ export const siteCopy = {
       },
     },
     manufacturing: {
+      facility: "Facility",
+      quality: "Quality",
       heroTitle: "Manufacturing & Quality",
       heroLead: "Manufacturing capability, product specifications and quality-control information are available for commercial evaluation.",
     },
     solutions: {
+      heroTitle: "Solutions for Every Market",
+      heroLead: "Tissue, hygiene and customised product solutions for households, retailers, hospitality, corporate organisations, events, private-label brands and export buyers.",
       eyebrow: "Solutions",
       discuss: "Discuss your requirements",
       notSure: "Not sure where your project fits?",
@@ -147,6 +153,7 @@ export const siteCopy = {
       telephone: "Telephone",
       email: "Email",
       hours: "Business hours",
+      hoursValue: "Monday-Friday, 8:30 AM-5:30 PM",
       form: {
         name: "Name",
         email: "Email",
@@ -251,6 +258,7 @@ export const siteCopy = {
         capital: "Modal berbayar",
         outlets: "Cawangan runcit Malaysia",
         markets: "Pasaran eksport",
+        thousandsValue: "Ribuan",
       },
     },
     home: {
@@ -327,6 +335,7 @@ export const siteCopy = {
       exportNote: "Spesifikasi akhir, terma komersial, dokumentasi dan garis masa disahkan dalam cadangan rasmi.",
       qualityEyebrow: "Piawaian",
       qualityTitle: "Kualiti & Piawaian Program",
+      scaleHeading: "Skala operasi yang sama di sebalik setiap program OEM dan eksport",
       qualityPoints: {
         specification: "Kawalan spesifikasi",
         hygiene: "Keperluan kualiti & kebersihan",
@@ -346,10 +355,14 @@ export const siteCopy = {
       },
     },
     manufacturing: {
+      facility: "Kemudahan",
+      quality: "Kualiti",
       heroTitle: "Pembuatan & Kualiti",
       heroLead: "Keupayaan pembuatan, spesifikasi produk dan maklumat kawalan kualiti tersedia untuk penilaian komersial.",
     },
     solutions: {
+      heroTitle: "Penyelesaian untuk Setiap Pasaran",
+      heroLead: "Penyelesaian produk tisu, kebersihan dan tersuai untuk rumah, peruncit, hospitaliti, organisasi korporat, acara, jenama label persendirian dan pembeli eksport.",
       eyebrow: "Penyelesaian",
       discuss: "Bincangkan keperluan anda",
       notSure: "Tidak pasti di mana projek anda sesuai?",
@@ -385,6 +398,7 @@ export const siteCopy = {
       telephone: "Telefon",
       email: "E-mel",
       hours: "Waktu perniagaan",
+      hoursValue: "Isnin–Jumaat, 8:30 pagi–5:30 petang",
       form: {
         name: "Nama",
         email: "E-mel",
@@ -489,6 +503,7 @@ export const siteCopy = {
         capital: "实缴资本",
         outlets: "马来西亚零售网点",
         markets: "出口市场",
+        thousandsValue: "数千",
       },
     },
     home: {
@@ -565,6 +580,7 @@ export const siteCopy = {
       exportNote: "最终规格、商业条款、文件及时间表以正式方案为准。",
       qualityEyebrow: "标准",
       qualityTitle: "质量与项目标准",
+      scaleHeading: "支撑每个 OEM 与出口项目的同一运营规模",
       qualityPoints: {
         specification: "规格管控",
         hygiene: "质量与卫生要求",
@@ -584,10 +600,14 @@ export const siteCopy = {
       },
     },
     manufacturing: {
+      facility: "生产设施",
+      quality: "质量",
       heroTitle: "制造与质量",
       heroLead: "制造能力、产品规格及质量控制信息可供商业评估。",
     },
     solutions: {
+      heroTitle: "为每个市场提供的方案",
+      heroLead: "为家庭、零售商、餐旅业、企业机构、活动、自有品牌及出口买家提供纸巾、卫生及定制产品方案。",
       eyebrow: "解决方案",
       discuss: "讨论您的需求",
       notSure: "不确定您的项目适合哪一类？",
@@ -623,6 +643,7 @@ export const siteCopy = {
       telephone: "电话",
       email: "电邮",
       hours: "营业时间",
+      hoursValue: "周一至周五，上午 8:30 至下午 5:30",
       form: {
         name: "姓名",
         email: "电邮",

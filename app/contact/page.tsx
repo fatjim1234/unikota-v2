@@ -54,7 +54,7 @@ export default async function ContactPage() {
                     <T k="site.contact.email" />: <a className="text-brand-700 hover:underline" href={`mailto:${s.email}`}>{s.email}</a>
                   </p>
                 ) : null}
-                {s.businessHours ? <p className="mt-2"><T k="site.contact.hours" />: {s.businessHours}</p> : null}
+                {s.businessHours ? <p className="mt-2"><T k="site.contact.hours" />: <T k="site.contact.hoursValue" fallback={s.businessHours} /></p> : null}
               </address>
             </Card>
           </div>

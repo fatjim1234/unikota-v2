@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     "Malaysian tissue products, own brands, OEM solutions and export coordination from an established company operating since 1983.",
 };
 
-const proof: { value: string; label: string; labelKey: string; icon: MarketingIconName }[] = [
+const proof: { value: string; valueKey?: string; label: string; labelKey: string; icon: MarketingIconName }[] = [
   { value: "1983", label: "Operating since", labelKey: "site.common.proof.since", icon: "calendar" },
   { value: "RM2.9M", label: "Paid-up capital", labelKey: "site.common.proof.capital", icon: "chart" },
-  { value: "Thousands", label: "Malaysian retail outlets", labelKey: "site.common.proof.outlets", icon: "storefront" },
+  { value: "Thousands", valueKey: "site.common.proof.thousandsValue", label: "Malaysian retail outlets", labelKey: "site.common.proof.outlets", icon: "storefront" },
   { value: "9", label: "Exporting markets", labelKey: "site.common.proof.markets", icon: "globe" },
 ];
 
@@ -106,7 +106,7 @@ export default function HomePage() {
           {proof.map((item) => (
             <div key={item.label} className="border-stone-200 px-4 py-2 text-center md:border-r md:last:border-r-0">
               <MarketingIcon name={item.icon} size={24} className="mx-auto text-brand-600" />
-              <dd className="mt-3 font-display text-3xl font-bold text-brand-800">{item.value}</dd>
+              <dd className="mt-3 font-display text-3xl font-bold text-brand-800">{item.valueKey ? <T k={item.valueKey} fallback={item.value} /> : item.value}</dd>
               <dt className="mt-1.5 text-xs uppercase tracking-[0.1em] text-stone-500"><T k={item.labelKey} fallback={item.label} /></dt>
             </div>
           ))}

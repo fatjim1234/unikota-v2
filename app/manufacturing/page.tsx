@@ -18,7 +18,7 @@ export default async function ManufacturingPage() {
         <Button href="/contact"><T k="site.oem.proposal" fallback="Request a Proposal" /></Button>
         <WhatsAppButton context="Manufacturing capabilities enquiry" />
       </PageHero>
-      <Section title="Facility">
+      <Section title={<T k="site.manufacturing.facility" fallback="Facility" />}>
         <div className="grid gap-8 lg:grid-cols-2">
           <p className="text-sm text-stone-700">{c.facility.overview}</p>
           <PlaceholderBlock label="facility" />
@@ -37,7 +37,7 @@ export default async function ManufacturingPage() {
           {c.linesNote ? <p className="mt-4 text-xs text-stone-500">{c.linesNote}</p> : null}
         </Section>
       ) : null}
-      <Section title="Quality">
+      <Section title={<T k="site.manufacturing.quality" fallback="Quality" />}>
         <p className="max-w-2xl text-sm text-stone-700">{c.qc.body}</p>
       </Section>
     </>

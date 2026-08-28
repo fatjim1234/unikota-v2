@@ -23,7 +23,7 @@ export default async function SolutionsPage() {
 
   return (
     <>
-      <PageHero eyebrow={<T k="site.common.brandLine" fallback="We're More Than Paper" />} title={c.hero.title} lead={c.hero.lead}>
+      <PageHero eyebrow={<T k="site.common.brandLine" fallback="We're More Than Paper" />} title={<T k="site.solutions.heroTitle" fallback={c.hero.title} />} lead={<T k="site.solutions.heroLead" fallback={c.hero.lead} />}>
         <Button href="/contact" className="!bg-white !text-brand-800 hover:!bg-brand-50">
           <T k="site.oem.proposal" fallback="Request a Proposal" />
         </Button>
