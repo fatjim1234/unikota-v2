@@ -37,6 +37,12 @@ export const siteCopy = {
       ctaBody: "Tell us what you need and where it needs to go.",
     },
     products: {
+      hero: {
+        eyebrow: "Our Malaysian portfolio",
+        title: "Brands made for everyday Malaysia.",
+        body: "From the dining table to daily care, Unikota brands are built around how Malaysians live, work and eat.",
+        cta: "Explore the portfolio",
+      },
       eyebrow: "Made for everyday Malaysia",
       title: "Brands with character. Products with purpose.",
       intro: "Six memorable Unikota brands across food-service tissue, family tissue, baby care and adult care.",
@@ -269,6 +275,12 @@ export const siteCopy = {
       ctaBody: "Beritahu kami apa yang anda perlukan dan destinasi penghantarannya.",
     },
     products: {
+      hero: {
+        eyebrow: "Portfolio Malaysia kami",
+        title: "Jenama dibuat untuk Malaysia harian.",
+        body: "Daripada meja makan hingga penjagaan harian, jenama Unikota dibina berdasarkan cara rakyat Malaysia hidup, bekerja dan makan.",
+        cta: "Terokai portfolio",
+      },
       eyebrow: "Dibuat untuk kehidupan harian Malaysia",
       title: "Jenama berwatak. Produk bertujuan.",
       intro: "Enam jenama Unikota merangkumi tisu perkhidmatan makanan, tisu keluarga, penjagaan bayi dan penjagaan dewasa.",
@@ -501,6 +513,12 @@ export const siteCopy = {
       ctaBody: "告诉我们您的需求及目的地。",
     },
     products: {
+      hero: {
+        eyebrow: "我们的马来西亚品牌组合",
+        title: "为日常马来西亚打造的品牌。",
+        body: "从餐桌到日常护理，Unikota 品牌围绕马来西亚人的生活、工作与饮食而打造。",
+        cta: "探索品牌组合",
+      },
       eyebrow: "为马来西亚日常生活而做",
       title: "有个性的品牌。有目的的产品。",
       intro: "Unikota 六大品牌覆盖餐饮纸品、家庭纸巾、婴儿护理及成人护理。",
