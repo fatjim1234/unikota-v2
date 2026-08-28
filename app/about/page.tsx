@@ -27,7 +27,7 @@ export default async function AboutPage() {
 
       {/* 2 — COMPANY OVERVIEW */}
       <Section title={<T k="site.about.overview" />}>
-        <p className="max-w-3xl text-base leading-relaxed text-stone-700">{c.overview ?? c.story[0]}</p>
+        <p className="max-w-3xl text-base leading-relaxed text-stone-700"><T k="site.about.overviewBody" fallback={c.overview ?? c.story[0]} /></p>
       </Section>
 
       {/* 3 — HERITAGE */}
@@ -36,11 +36,11 @@ export default async function AboutPage() {
           <Eyebrow><T k="site.about.heritage" /></Eyebrow>
           <h2 className="mb-8 font-display text-4xl font-bold text-brand-900"><T k="site.about.heritageTitle" /></h2>
           <ol className="relative space-y-8 border-l-2 border-brand-200 pl-6">
-            {c.heritage.map((h) => (
+            {c.heritage.map((h, hi) => (
               <li key={h.label} className="relative">
                 <span aria-hidden className="absolute -left-[31px] top-1.5 h-3 w-3 rounded-full border-2 border-white bg-brand-600" />
-                <p className="font-bold text-brand-800">{h.label}</p>
-                <p className="mt-1 max-w-2xl text-sm leading-relaxed text-stone-600">{h.body}</p>
+                <p className="font-bold text-brand-800"><T k={`site.about.heritageItems.${hi}.label`} fallback={h.label} /></p>
+                <p className="mt-1 max-w-2xl text-sm leading-relaxed text-stone-600"><T k={`site.about.heritageItems.${hi}.body`} fallback={h.body} /></p>
               </li>
             ))}
           </ol>
@@ -51,10 +51,10 @@ export default async function AboutPage() {
       {c.lanes && c.lanes.length > 0 ? (
         <Section title={<T k="site.about.what" />}>
           <div className="grid gap-6 lg:grid-cols-2">
-            {c.lanes.map((lane) => (
+            {c.lanes.map((lane, li) => (
               <Card key={lane.title} className="h-full border-t-4 border-t-brand-600">
-                <h3 className="font-display text-2xl font-bold text-ink">{lane.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-stone-600">{lane.body}</p>
+                <h3 className="font-display text-2xl font-bold text-ink"><T k={`site.about.lanes.${li}.title`} fallback={lane.title} /></h3>
+                <p className="mt-3 text-sm leading-relaxed text-stone-600"><T k={`site.about.lanes.${li}.body`} fallback={lane.body} /></p>
               </Card>
             ))}
           </div>
@@ -66,7 +66,7 @@ export default async function AboutPage() {
         <section className="bg-brand-900 text-white">
           <div className="mx-auto max-w-page px-4 py-12 sm:px-6">
             <p className="font-display text-sm font-semibold uppercase tracking-[0.2em] text-brand-200"><T k="site.about.concept" /></p>
-            <p className="mt-3 max-w-4xl text-lg leading-relaxed text-brand-50 sm:text-2xl">{c.conceptToMarket}</p>
+            <p className="mt-3 max-w-4xl text-lg leading-relaxed text-brand-50 sm:text-2xl"><T k="site.about.conceptBody" fallback={c.conceptToMarket} /></p>
           </div>
         </section>
       ) : null}
@@ -75,13 +75,13 @@ export default async function AboutPage() {
       {c.customised && c.customised.length > 0 ? (
         <Section title={<T k="site.about.customised" />}>
           {c.customisedIntro ? (
-            <p className="mb-6 max-w-2xl text-base leading-relaxed text-stone-600">{c.customisedIntro}</p>
+            <p className="mb-6 max-w-2xl text-base leading-relaxed text-stone-600"><T k="site.about.customisedIntro" fallback={c.customisedIntro} /></p>
           ) : null}
           <ul className="grid max-w-4xl gap-x-8 gap-y-2 text-sm text-stone-700 sm:grid-cols-2 lg:grid-cols-3">
-            {c.customised.map((item) => (
+            {c.customised.map((item, ci) => (
               <li key={item} className="flex items-start gap-2">
                 <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-500" />
-                {item}
+                <T k={`site.about.customisedItems.${ci}`} fallback={item} />
               </li>
             ))}
           </ul>
@@ -98,7 +98,7 @@ export default async function AboutPage() {
               <h2 className="font-display text-4xl font-bold text-brand-900">
                 <T k="site.about.quality" fallback="Programme Standards" />
               </h2>
-              <p className="mt-5 max-w-xl text-base leading-relaxed text-stone-700">{c.qualityStatement}</p>
+              <p className="mt-5 max-w-xl text-base leading-relaxed text-stone-700"><T k="site.about.qualityBody" fallback={c.qualityStatement} /></p>
             </div>
             <div className="relative aspect-[4/3] overflow-hidden border border-stone-200 shadow-sm">
               <Image
@@ -116,7 +116,7 @@ export default async function AboutPage() {
       {/* 7 — TISSUE, HYGIENE & PERSONAL CARE */}
       {c.broaderCapability ? (
         <Section title={<T k="site.about.broader" />} muted>
-          <p className="max-w-3xl text-base leading-relaxed text-stone-700">{c.broaderCapability}</p>
+          <p className="max-w-3xl text-base leading-relaxed text-stone-700"><T k="site.about.broaderBody" fallback={c.broaderCapability} /></p>
         </Section>
       ) : null}
 
@@ -128,7 +128,10 @@ export default async function AboutPage() {
               // Reuse the existing proof labels (Home/OEM stats band) rather than
               // duplicating — same four concepts in the same order.
               const proofKeys = ["site.common.proof.since", "site.common.proof.capital", "site.common.proof.outlets", "site.common.proof.markets"];
-              return <Stat key={f.label} value={f.value} label={<T k={proofKeys[index] ?? ""} fallback={f.label} />} />;
+              // 1983 and 3,300+ are numeric; only the two word-bearing values need translating.
+              const valueKeys = ["", "site.about.factCapital", "", "site.about.factMarkets"];
+              const value = valueKeys[index] ? <T k={valueKeys[index]} fallback={f.value} /> : f.value;
+              return <Stat key={f.label} value={value} label={<T k={proofKeys[index] ?? ""} fallback={f.label} />} />;
             })}
           </div>
         </Section>
@@ -161,7 +164,7 @@ export default async function AboutPage() {
       {/* 10 — OEM & SUPPLY EXPERIENCE */}
       {c.oemExperience ? (
         <Section title={<T k="site.about.experience" />}>
-          <p className="max-w-3xl text-base leading-relaxed text-stone-700">{c.oemExperience}</p>
+          <p className="max-w-3xl text-base leading-relaxed text-stone-700"><T k="site.about.experienceBody" fallback={c.oemExperience} /></p>
         </Section>
       ) : null}
 

@@ -114,7 +114,7 @@ export function Eyebrow({ children }: { children: ReactNode }) {
 }
 
 /** Verified-fact stat tile (values must always be verified facts, never invented). */
-export function Stat({ value, label }: { value: string; label: ReactNode }) {
+export function Stat({ value, label }: { value: ReactNode; label: ReactNode }) {
   return (
     <div className="border border-stone-200 bg-white p-5">
       <p className="font-display text-2xl font-bold text-brand-700 sm:text-3xl">{value}</p>
