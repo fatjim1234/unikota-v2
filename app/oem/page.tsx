@@ -159,14 +159,14 @@ export default async function OemPage() {
           <div>
             <p className="font-display text-sm font-semibold uppercase tracking-[0.2em] text-brand-600"><T k="site.oem.customEyebrow" /></p>
             <h2 className="mt-3 font-display text-4xl font-bold text-brand-900 sm:text-5xl"><T k="site.oem.customTitle" /></h2>
-            <p className="mt-5 max-w-xl text-base leading-7 text-stone-600">{content.capabilities.body}</p>
+            <p className="mt-5 max-w-xl text-base leading-7 text-stone-600"><T k="site.oem.capabilitiesBody" fallback={content.capabilities.body} /></p>
             <Button href="/contact" className="mt-7 !rounded-none"><T k="site.oem.proposal" /></Button>
           </div>
           <ul className="grid border-t border-stone-300 sm:grid-cols-2">
             {content.customisable?.items.map((item, index) => (
               <li key={item} className="flex gap-4 border-b border-stone-300 px-2 py-5 sm:odd:border-r sm:px-5">
                 <span className="font-display text-lg font-bold text-brand-500">{String(index + 1).padStart(2, "0")}</span>
-                <span className="font-semibold text-brand-900">{item}</span>
+                <span className="font-semibold text-brand-900"><T k={`site.oem.customisableItems.${index}`} fallback={item} /></span>
               </li>
             ))}
           </ul>
@@ -182,25 +182,29 @@ export default async function OemPage() {
             <h2 className="mt-3 max-w-3xl font-display text-4xl font-bold text-brand-900 sm:text-5xl">
               <T k="site.oem.qualityTitle" fallback="Quality & Programme Standards" />
             </h2>
-            <p className="mt-5 max-w-2xl text-base leading-7 text-stone-600">{content.qualityStatement}</p>
+            <p className="mt-5 max-w-2xl text-base leading-7 text-stone-600"><T k="site.oem.qualityStatementBody" fallback={content.qualityStatement} /></p>
             <div className="mt-10 grid gap-6 border-t border-stone-300 pt-10 sm:grid-cols-2 lg:grid-cols-4">
               {content.qualityPoints.map((point, index) => {
                 // Icons are a fixed visual reinforcement in a fixed order — not a
                 // certification badge. No ISO/FSC marks or accreditation-body logos.
                 const qualityIcons: MarketingIconName[] = ["ruler", "shield", "seal", "clipboard"];
-                // Titles are short structural labels (translated); bodies remain
-                // English-only prose per the site's content-paragraph pattern.
                 const titleKeys = [
                   "site.oem.qualityPoints.specification",
                   "site.oem.qualityPoints.hygiene",
                   "site.oem.qualityPoints.consistency",
                   "site.oem.qualityPoints.documentation",
                 ];
+                const bodyKeys = [
+                  "site.oem.qualityPointBodies.specification",
+                  "site.oem.qualityPointBodies.hygiene",
+                  "site.oem.qualityPointBodies.consistency",
+                  "site.oem.qualityPointBodies.documentation",
+                ];
                 return (
                   <div key={point.title}>
                     <MarketingIcon name={qualityIcons[index] ?? "package"} size={28} className="text-brand-500" />
                     <h3 className="mt-3 font-display text-lg font-bold text-brand-900"><T k={titleKeys[index] ?? ""} fallback={point.title} /></h3>
-                    <p className="mt-2 text-sm leading-6 text-stone-600">{point.body}</p>
+                    <p className="mt-2 text-sm leading-6 text-stone-600"><T k={bodyKeys[index] ?? ""} fallback={point.body} /></p>
                   </div>
                 );
               })}

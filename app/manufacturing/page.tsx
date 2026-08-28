@@ -20,7 +20,7 @@ export default async function ManufacturingPage() {
       </PageHero>
       <Section title={<T k="site.manufacturing.facility" fallback="Facility" />}>
         <div className="grid gap-8 lg:grid-cols-2">
-          <p className="text-sm text-stone-700">{c.facility.overview}</p>
+          <p className="text-sm text-stone-700"><T k="site.manufacturing.facilityBody" fallback={c.facility.overview} /></p>
           <PlaceholderBlock label="facility" />
         </div>
       </Section>
@@ -38,7 +38,7 @@ export default async function ManufacturingPage() {
         </Section>
       ) : null}
       <Section title={<T k="site.manufacturing.quality" fallback="Quality" />}>
-        <p className="max-w-2xl text-sm text-stone-700">{c.qc.body}</p>
+        <p className="max-w-2xl text-sm text-stone-700"><T k="site.manufacturing.qcBody" fallback={c.qc.body} /></p>
       </Section>
     </>
   );

@@ -91,6 +91,15 @@ export const siteCopy = {
       qualityEyebrow: "Standards",
       qualityTitle: "Quality & Programme Standards",
       scaleHeading: "The same operating scale behind every OEM and export programme",
+      capabilitiesBody: "Materials, print options, minimum order quantities and indicative lead times are confirmed for each project. Contact our team for a tailored proposal.",
+      customisableItems: ["Product formats", "Packaging format and artwork", "Pack size and quantity", "Materials and ply", "Printing and branding", "Carton configuration", "Delivery destination", "Retail, corporate, event or export requirements"],
+      qualityStatementBody: "Unikota is the programme owner and supply partner for every OEM, private-label and export engagement. Programmes are developed, approved and supplied to the quality, hygiene and operational requirements defined by the client, with requirements confirmed against the buyer's brief or tender before production is scheduled.",
+      qualityPointBodies: {
+        specification: "Every programme is developed and approved against a written specification agreed with the client before production begins.",
+        hygiene: "Production is run to the quality and hygiene requirements defined for the product's end use — food-service, hospitality, washroom or everyday skin contact.",
+        consistency: "Pre-production samples are issued for approval, with consistency checks carried through production and packing.",
+        documentation: "Product documentation is compiled per programme and available to support tender, audit or export requirements.",
+      },
       qualityPoints: {
         specification: "Specification control",
         hygiene: "Quality & hygiene requirements",
@@ -112,6 +121,8 @@ export const siteCopy = {
     manufacturing: {
       facility: "Facility",
       quality: "Quality",
+      facilityBody: "Unikota's manufacturing and converting capabilities support its own-brand, OEM, private-label and bulk supply requirements. Detailed facility, production-line and capacity information can be presented during commercial discussions.",
+      qcBody: "Quality-control requirements and supporting information are reviewed according to the product and project scope.",
       heroTitle: "Manufacturing & Quality",
       heroLead: "Manufacturing capability, product specifications and quality-control information are available for commercial evaluation.",
     },
@@ -364,6 +375,15 @@ export const siteCopy = {
       qualityEyebrow: "Piawaian",
       qualityTitle: "Kualiti & Piawaian Program",
       scaleHeading: "Skala operasi yang sama di sebalik setiap program OEM dan eksport",
+      capabilitiesBody: "Bahan, pilihan cetakan, kuantiti pesanan minimum dan anggaran masa penghantaran disahkan bagi setiap projek. Hubungi pasukan kami untuk cadangan yang disesuaikan.",
+      customisableItems: ["Format produk", "Format pembungkusan dan karya seni", "Saiz dan kuantiti pek", "Bahan dan lapisan (ply)", "Cetakan dan penjenamaan", "Konfigurasi karton", "Destinasi penghantaran", "Keperluan runcit, korporat, acara atau eksport"],
+      qualityStatementBody: "Unikota ialah pemilik program dan rakan bekalan untuk setiap kerjasama OEM, label persendirian dan eksport. Program dibangunkan, diluluskan dan dibekalkan mengikut keperluan kualiti, kebersihan dan operasi yang ditetapkan pelanggan, dengan keperluan disahkan berdasarkan taklimat atau tender pembeli sebelum pengeluaran dijadualkan.",
+      qualityPointBodies: {
+        specification: "Setiap program dibangunkan dan diluluskan berdasarkan spesifikasi bertulis yang dipersetujui dengan pelanggan sebelum pengeluaran bermula.",
+        hygiene: "Pengeluaran dijalankan mengikut keperluan kualiti dan kebersihan yang ditetapkan untuk kegunaan akhir produk — perkhidmatan makanan, hospitaliti, bilik air atau sentuhan kulit harian.",
+        consistency: "Sampel pra-pengeluaran dikeluarkan untuk kelulusan, dengan pemeriksaan konsistensi dijalankan sepanjang pengeluaran dan pembungkusan.",
+        documentation: "Dokumentasi produk disediakan bagi setiap program dan tersedia untuk menyokong keperluan tender, audit atau eksport.",
+      },
       qualityPoints: {
         specification: "Kawalan spesifikasi",
         hygiene: "Keperluan kualiti & kebersihan",
@@ -385,6 +405,8 @@ export const siteCopy = {
     manufacturing: {
       facility: "Kemudahan",
       quality: "Kualiti",
+      facilityBody: "Keupayaan pembuatan dan penukaran Unikota menyokong keperluan bekalan jenama sendiri, OEM, label persendirian dan pukal. Maklumat terperinci tentang kemudahan, barisan pengeluaran dan kapasiti boleh dikemukakan semasa perbincangan komersial.",
+      qcBody: "Keperluan kawalan kualiti dan maklumat sokongan disemak mengikut skop produk dan projek.",
       heroTitle: "Pembuatan & Kualiti",
       heroLead: "Keupayaan pembuatan, spesifikasi produk dan maklumat kawalan kualiti tersedia untuk penilaian komersial.",
     },
@@ -637,6 +659,15 @@ export const siteCopy = {
       qualityEyebrow: "标准",
       qualityTitle: "质量与项目标准",
       scaleHeading: "支撑每个 OEM 与出口项目的同一运营规模",
+      capabilitiesBody: "每个项目的材料、印刷选项、最低起订量及预计交货时间都会确认。请联系我们的团队获取量身定制的方案。",
+      customisableItems: ["产品形式", "包装形式与美工", "包装尺寸与数量", "材料与层数", "印刷与品牌标识", "纸箱配置", "交货目的地", "零售、企业、活动或出口需求"],
+      qualityStatementBody: "Unikota 是每个 OEM、自有品牌及出口合作的项目负责方与供货伙伴。项目按照客户设定的质量、卫生及运营要求进行开发、审批和供货，并在安排生产前依据买家的简报或招标要求确认各项需求。",
+      qualityPointBodies: {
+        specification: "每个项目在生产开始前，都会依据与客户商定的书面规格进行开发和审批。",
+        hygiene: "生产按照产品最终用途所设定的质量与卫生要求进行——餐饮服务、餐旅业、洗手间或日常皮肤接触。",
+        consistency: "在量产前提供样品供确认，并在生产和包装过程中进行一致性检查。",
+        documentation: "每个项目都会整理产品文件，可用于支持投标、审计或出口需求。",
+      },
       qualityPoints: {
         specification: "规格管控",
         hygiene: "质量与卫生要求",
@@ -658,6 +689,8 @@ export const siteCopy = {
     manufacturing: {
       facility: "生产设施",
       quality: "质量",
+      facilityBody: "Unikota 的制造与加工能力可支持其自有品牌、OEM、自有品牌及大宗供货需求。详细的设施、生产线及产能信息可在商务洽谈中提供。",
+      qcBody: "质量控制要求及相关支持信息会根据产品和项目范围进行审核。",
       heroTitle: "制造与质量",
       heroLead: "制造能力、产品规格及质量控制信息可供商业评估。",
     },
