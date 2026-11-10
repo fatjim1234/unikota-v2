@@ -23,12 +23,16 @@ export type QrLink = {
 export const QR_LINKS: Record<string, QrLink> = {
   "unisoft-signature": {
     destination: "/brands/unisoft",
-    note: "Unisoft Signature 4-ply 200 sheets pack — QR 1, website. Artwork supplied to designer 10 Nov 2026.",
+    note: "Unisoft Signature bathroom tissue, individual roll wrap (4-ply, 200 sheets) — QR 1, website. Seen at home after purchase. Artwork supplied to designer 10 Nov 2026.",
   },
   "unisoft-signature-ig": {
     // TODO: switch to the Instagram account URL once it exists.
     destination: "/",
-    note: "Unisoft Signature 4-ply 200 sheets pack — QR 2, captioned for Instagram. Artwork supplied to designer 10 Nov 2026.",
+    note: "Unisoft Signature bathroom tissue, individual roll wrap (4-ply, 200 sheets) — QR 2, captioned for Instagram. Seen at home after purchase. Artwork supplied to designer 10 Nov 2026.",
+  },
+  "unisoft-signature-pack": {
+    destination: "/brands/unisoft",
+    note: "Unisoft Signature bathroom tissue, outer 10-roll bag — QR 3. Seen in store before purchase. Artwork supplied to designer 10 Nov 2026.",
   },
 };
 
