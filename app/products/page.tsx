@@ -63,7 +63,7 @@ export default function ProductsPage() {
                 <p className="mt-3 font-display text-lg font-semibold" style={{ color: brand.accent }}><T k={`site.brands.${brand.slug}.tagline`} fallback={brand.tagline} /></p>
                 <p className="mt-4 max-w-lg text-base leading-7 text-stone-600"><T k={`site.brands.${brand.slug}.summary`} fallback={brand.summary} /></p>
                 <p className="mt-4 text-sm font-semibold text-stone-500"><T k={`site.brands.${brand.slug}.spec`} fallback={`${brand.name} specification`} /></p>
-                <Link href={`/products/${brand.slug}`} className="focus-ring mt-6 inline-flex items-center gap-2 text-sm font-semibold" style={{ color: brand.accent }}>
+                <Link href={`/brands/${brand.slug}`} className="focus-ring mt-6 inline-flex items-center gap-2 text-sm font-semibold" style={{ color: brand.accent }}>
                   <T k="site.common.explore" fallback="Explore" /> {brand.name} <MarketingIcon name="arrow" size={18} />
                 </Link>
               </div>
@@ -79,7 +79,7 @@ export default function ProductsPage() {
             {careBrands.map((brand) => (
               <Link
                 key={brand.slug}
-                href={`/products/${brand.slug}`}
+                href={`/brands/${brand.slug}`}
                 className="focus-ring group grid min-h-[340px] border border-stone-200 p-8 sm:grid-cols-[60%_40%] sm:p-8"
                 style={{ backgroundColor: brand.tint, borderTop: `6px solid ${brand.accent}` }}
               >

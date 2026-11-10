@@ -144,7 +144,7 @@ export default async function BrandFeaturePage({ params }: BrandPageProps) {
           </div>
           <div className="mt-9 grid gap-px bg-white/20 md:grid-cols-3">
             {related.map((item) => (
-              <Link key={item.slug} href={`/products/${item.slug}`} className="focus-ring group bg-brand-900 p-7">
+              <Link key={item.slug} href={`/brands/${item.slug}`} className="focus-ring group bg-brand-900 p-7">
                 {/* Sized for confident presence, not a shy chip. Still keeps a light
                     backing plate: Unisoft's wordmark is near-black ink and would be
                     close to invisible directly on this navy section without one. */}

@@ -144,7 +144,7 @@ export default async function AboutPage() {
           {brandPortfolio.map((brand) => (
             <Link
               key={brand.slug}
-              href={`/products/${brand.slug}`}
+              href={`/brands/${brand.slug}`}
               className="focus-ring group flex min-h-[250px] flex-col border border-stone-200 bg-white p-7"
               style={{ borderTop: `5px solid ${brand.accent}` }}
             >

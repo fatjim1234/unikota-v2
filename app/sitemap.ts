@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/about",
     "/products",
-    ...brandPortfolio.map((brand) => `/products/${brand.slug}`),
+    ...brandPortfolio.map((brand) => `/brands/${brand.slug}`),
     "/oem",
     "/export",
     "/contact",
